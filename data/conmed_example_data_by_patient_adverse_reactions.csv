@@ -1,0 +1,998 @@
+Nausea,34
+Headache,34
+Rash,32
+Dizziness,31
+Vomiting,31
+Abdominal pain,30
+Diarrhoea,29
+Pruritus,29
+Insomnia,29
+Urticaria,28
+Dyspnoea,28
+Asthenia,28
+Dyspepsia,28
+Hypertension,28
+Constipation,27
+Pyrexia,27
+Depression,27
+Arthralgia,27
+Anaemia,26
+Angioedema,26
+Influenza,25
+Tremor,25
+Vertigo,25
+Palpitations,25
+Hepatitis,25
+Anxiety,25
+Thrombocytopenia,25
+Paraesthesia,25
+Somnolence,24
+Cough,24
+Nervousness,24
+Pain,24
+Myalgia,24
+Pancreatitis,24
+Tachycardia,24
+Flatulence,23
+Decreased appetite,23
+Hypotension,23
+Rhinitis,23
+Sinusitis,23
+Leukopenia,23
+Alopecia,22
+Flushing,22
+Hypersensitivity,22
+Infection,22
+Fatigue,22
+Back pain,22
+Seizure,22
+Chest pain,22
+Confusional state,21
+Hyperglycaemia,21
+Anaphylactic reaction,21
+Epistaxis,21
+Vision blurred,21
+Syncope,21
+Malaise,21
+Jaundice,21
+Photosensitivity reaction,21
+Dry mouth,21
+Chills,21
+Urinary tract infection,21
+Hyperhidrosis,21
+Pharyngitis,21
+Arrhythmia,21
+Muscle spasms,21
+Tinnitus,20
+Stevens-Johnson syndrome,20
+Bronchospasm,20
+Myocardial infarction,20
+Erythema multiforme,20
+Affect lability,20
+Toxic epidermal necrolysis,19
+Nasal congestion,19
+Diabetes mellitus,19
+Lymphadenopathy,19
+Hypokalaemia,19
+Death,19
+Oedema peripheral,19
+Agranulocytosis,18
+Hypoglycaemia,18
+Hepatic failure,18
+Anaphylactoid reaction,18
+Skin reaction,18
+Eructation,18
+Asthma,18
+Dysuria,18
+Oedema,18
+Conjunctivitis,18
+Acute kidney injury,17
+Hallucination,17
+Bradycardia,17
+Glossitis,17
+Aplastic anaemia,17
+Haemorrhage,17
+Cardiac failure,17
+Abdominal discomfort,17
+Haemolytic anaemia,17
+Acne,16
+Gastrointestinal disorder,16
+Dermatitis allergic,16
+Cerebrovascular accident,16
+Pneumonia,16
+Arthritis,16
+Bronchitis,16
+Hyperkalaemia,16
+Abdominal pain upper,16
+Gastritis,16
+Irritability,16
+Migraine,15
+Renal failure,15
+Vasculitis,15
+Neutropenia,15
+Liver function test abnormal,15
+Ecchymosis,15
+Upper respiratory tract infection,15
+Pancytopenia,15
+Melaena,14
+Hepatotoxicity,14
+Gastrointestinal haemorrhage,14
+Diplopia,14
+Dry eye,14
+Agitation,14
+Menorrhagia,14
+Cardiac failure congestive,14
+Deafness,14
+Cataract,14
+Urinary retention,14
+Nightmare,14
+Rectal haemorrhage,14
+Nasopharyngitis,14
+Restlessness,14
+Granulocytosis,13
+Renal impairment,13
+Hepatic necrosis,13
+Purpura,13
+Wheezing,13
+Eosinophilia,13
+Weight increased,13
+Oliguria,13
+Hypoaesthesia,13
+Polyuria,13
+Respiratory depression,13
+Proteinuria,13
+Dermatitis exfoliative,13
+Ataxia,13
+Chest discomfort,13
+Stomatitis,13
+Breast cancer,13
+Dermatitis bullous,13
+Increased appetite,12
+Serum sickness,12
+Hirsutism,12
+Haematuria,12
+Fluid retention,12
+Dermatitis,12
+Central nervous system stimulation,12
+Muscular weakness,12
+Idiopathic intracranial hypertension,12
+Coma,12
+Sepsis,12
+Atrial fibrillation,12
+Optic neuritis,11
+Aggression,11
+Cholestasis,11
+Abdominal distension,11
+Blood urea increased,11
+Jaundice cholestatic,11
+Musculoskeletal pain,11
+Laryngitis,11
+Neuritis,11
+Blood creatinine increased,11
+Systemic lupus erythematosus,11
+Pulmonary hypertension,11
+Lethargy,11
+Visual impairment,11
+Oesophagitis,11
+Colitis,11
+Eczema,11
+Respiratory tract infection,11
+Arthropathy,11
+Completed suicide,11
+Cystitis,11
+Hepatic enzyme increased,11
+Gastroenteritis,11
+Pain in extremity,11
+Amnesia,11
+Haematemesis,11
+Hypoproteinaemia,11
+Amblyopia,10
+Perforation,10
+Bleeding time,10
+Psychomotor hyperactivity,10
+Dysphagia,10
+Oropharyngeal pain,10
+Hypoalbuminaemia,10
+Gastrooesophageal reflux disease,10
+Cyst,10
+Weight decreased,10
+Haemoglobin decreased,10
+Hyponatraemia,10
+Retching,10
+Skin lesion,10
+Azotaemia,10
+Dysphonia,10
+Cardiac arrest,10
+Erectile dysfunction,9
+Pulmonary embolism,9
+Duodenal ulcer,9
+Angina pectoris,9
+Orthostatic hypotension,9
+Meningitis aseptic,9
+Dehydration,9
+Ear pain,9
+Pulmonary oedema,9
+Otitis media,9
+Visual field defect,9
+Injection site reaction,9
+Sinus headache,9
+Necrotising colitis,9
+Adrenal insufficiency,9
+Drug reaction with eosinophilia and systemic symptoms,9
+Atelectasis,9
+Nephrolithiasis,9
+Metabolic acidosis,9
+Lung disorder,9
+Renal papillary necrosis,9
+Infusion site pain,9
+Taste disorder,9
+Pollakiuria,9
+Mydriasis,9
+Enterocolitis,8
+Henoch-Schonlein purpura,8
+Throat irritation,8
+Vasodilatation,8
+Glucose-6-phosphate dehydrogenase deficiency,8
+Thrombocytosis,8
+Meningitis,8
+Injury,8
+Dermatitis contact,8
+Respiratory disorder,8
+Thirst,8
+Blood lactate dehydrogenase increased,8
+Nasal septum disorder,8
+Thinking abnormal,8
+Ear disorder,8
+Apnoea,8
+Nasal ulcer,8
+Seborrhoea,8
+Hyperkinesia,8
+Tooth disorder,8
+Ventricular tachycardia,8
+Abnormal faeces,8
+Erythema,8
+Breast pain,8
+Deep vein thrombosis,8
+Gait disturbance,8
+Hypertonia,7
+Nail disorder,7
+Glaucoma,7
+Neck pain,7
+Respiratory failure,7
+Dysmenorrhoea,7
+Memory impairment,7
+Gastroenteritis viral,7
+Inguinal hernia,7
+Hypocalcaemia,7
+Dry skin,7
+Extrasystoles,7
+Sinus tachycardia,7
+Pneumonia bacterial,7
+Abscess,7
+Hepatorenal syndrome,7
+Inappropriate antidiuretic hormone secretion,7
+Dysgeusia,7
+Vaginal infection,7
+Pallor,7
+Blood pressure increased,7
+Eye pain,7
+Hypernatraemia,7
+Wound haemorrhage,7
+Salivary hypersecretion,7
+Intraventricular haemorrhage,7
+Sleep disorder,7
+Ileus,7
+Duodenitis,7
+Glomerulonephritis,7
+Sedation,7
+Gastrointestinal perforation,7
+Renal tubular necrosis,7
+Bacteraemia,7
+Epidermal necrosis,7
+Leukocytosis,7
+Pleural effusion,7
+Sinus bradycardia,7
+Pleural disorder,7
+Menstrual disorder,7
+Creatinine renal clearance decreased,7
+Sexual dysfunction,6
+Bronchospasm paradoxical,6
+Type I hypersensitivity,6
+Electrocardiogram ST segment depression,6
+Fungal infection,6
+Glycosuria,6
+Tongue ulceration,6
+Hypercholesterolaemia,6
+Nosocomial infection,6
+Rhabdomyolysis,6
+Nephrotic syndrome,6
+Libido decreased,6
+Hepatic enzyme abnormal,6
+Rhinorrhoea,6
+Candida infection,6
+Oropharyngeal oedema,6
+Oral candidiasis,6
+Major depression,6
+Haemolysis,6
+Crystal nephropathy,6
+Administration site reaction,6
+Torsade de pointes,6
+Nocturia,6
+Amenorrhoea,6
+Supraventricular tachycardia,6
+Psychotic disorder,6
+Neuropathy peripheral,6
+Toothache,6
+Hypothyroidism,6
+Psoriasis,6
+Gout,6
+Myopathy,6
+Herpes simplex,6
+Eye irritation,6
+Hostility,5
+Lactic acidosis,5
+Fracture,5
+Laryngospasm,5
+Rash maculo-papular,5
+Photophobia,5
+Transient ischaemic attack,5
+Pelvic pain,5
+Mood swings,5
+Osteoporosis,5
+Blindness,5
+Apathy,5
+Metrorrhagia,5
+Laryngeal pain,5
+Hiccups,5
+Porphyria non-acute,5
+Contusion,5
+Anorectal disorder,5
+Dystonia,5
+Depersonalisation/derealisation disorder,5
+Vaginal haemorrhage,5
+Fall,5
+Nystagmus,5
+Ejaculation disorder,5
+Ageusia,5
+Peptic ulcer,5
+Breast enlargement,5
+Vitamin B12 deficiency,5
+Face oedema,5
+Abnormal dreams,5
+Viral infection,5
+Cardiac disorder,5
+Angina unstable,5
+Mouth ulceration,5
+Ear infection,5
+Dysarthria,4
+Hyperthyroidism,4
+Paralysis,4
+Choreoathetosis,4
+Delirium,4
+Hot flush,4
+Phlebitis,4
+Prothrombin level decreased,4
+Hepatomegaly,4
+Cellulitis,4
+Disorientation,4
+Temperature intolerance,4
+Yawning,4
+Dyskinesia,4
+Anorgasmia,4
+Abortion spontaneous,4
+Coordination abnormal,4
+Suicide attempt,4
+Mucosal inflammation,4
+Generalised tonic-clonic seizure,4
+Embolism,4
+Cholelithiasis,4
+Circulatory collapse,4
+Liver injury,4
+Urinary incontinence,4
+Tongue disorder,4
+Influenza like illness,4
+Joint swelling,4
+Enteritis,4
+Generalised oedema,4
+Stridor,4
+Tooth abscess,4
+Cholecystitis,4
+Paranoia,4
+Myoclonus,4
+Laryngeal oedema,4
+Cushingoid,4
+Pyuria,4
+Gastrointestinal pain,4
+Ventricular extrasystoles,4
+Intestinal angioedema,4
+Keratitis,4
+Depressive symptom,4
+Clonic convulsion,4
+Skin infection,4
+Skin mass,4
+Haematoma,4
+Dysaesthesia,4
+Tendon rupture,4
+Thrombophlebitis,4
+Application site reaction,4
+Mood altered,4
+Herpes zoster,4
+Pyelonephritis,4
+Haemorrhoids,4
+Akathisia,4
+Interstitial lung disease,4
+Thrombocytopenic purpura,4
+Fungal skin infection,4
+Swelling face,4
+Neuralgia,4
+Depressed level of consciousness,4
+Euphoric mood,4
+Renal pain,4
+Pneumonitis,4
+Musculoskeletal stiffness,4
+Male sexual dysfunction,3
+Bleeding time prolonged,3
+Sinus congestion,3
+Porphyria,3
+Angle closure glaucoma,3
+Tendon disorder,3
+Joint stiffness,3
+Skin discolouration,3
+Female sexual dysfunction,3
+Breast neoplasm,3
+Gastrointestinal tract irritation,3
+Muscle twitching,3
+Respiratory distress,3
+Skin ulcer,3
+Lymphocytosis,3
+Granulocytopenia,3
+Hyperaesthesia,3
+Eyelid ptosis,3
+Suicidal ideation,3
+Intestinal obstruction,3
+Urine analysis abnormal,3
+Colitis ulcerative,3
+Hyperprolactinaemia,3
+Feeling abnormal,3
+Bone pain,3
+Retinal haemorrhage,3
+Blister,3
+Bursitis,3
+Hyperuricaemia,3
+Lacrimation increased,3
+Seasonal allergy,3
+Neoplasm malignant,3
+Skin necrosis,3
+Peripheral vascular disorder,3
+Gynaecomastia,3
+Ischaemic stroke,3
+Delusion,3
+Extrapyramidal disorder,3
+Tonsillitis,3
+Corneal erosion,3
+Injection site pain,3
+Periorbital oedema,3
+Parosmia,3
+Myasthenia gravis,3
+Pseudomembranous colitis,3
+Tongue discolouration,3
+Pyloric stenosis,3
+Punctate keratitis,3
+Lipohypertrophy,3
+Hypoxia,3
+Intraocular pressure increased,3
+Periorbital swelling,3
+Acute generalised exanthematous pustulosis,3
+Papilloedema,3
+Libido increased,3
+Tenderness,3
+Infusion site reaction,3
+Hypertrichosis,3
+Breast tenderness,3
+Skin striae,3
+Aspartate aminotransferase increased,3
+Pathological fracture,3
+Menstruation irregular,3
+Atrophy,3
+Renal artery stenosis,3
+Fluid overload,3
+Accidental overdose,3
+Hypersomnia,3
+Haemorrhagic stroke,3
+"Hallucination, visual",3
+Haemoptysis,3
+Alanine aminotransferase increased,3
+Pemphigus,3
+Myositis,3
+Flank pain,3
+Muscle fatigue,3
+Anuria,3
+Atrial tachycardia,3
+Cognitive disorder,3
+Nocturnal dyspnoea,3
+Acute myocardial infarction,3
+Orthopnoea,3
+Painful respiration,3
+Immune-mediated myositis,3
+White blood cells urine positive,3
+Dyspnoea paroxysmal nocturnal,3
+Myelosuppression,3
+Drug eruption,3
+Anger,3
+Acromegaly,3
+Subdural haematoma,3
+Serotonin syndrome,3
+Nasal discomfort,3
+Ventricular arrhythmia,3
+Rash erythematous,3
+Rhinitis allergic,3
+Haemorrhage intracranial,3
+Choking,3
+Atrioventricular block,3
+Hypertensive crisis,3
+Immunosuppression,3
+Disturbance in attention,3
+Craniosynostosis,3
+Achlorhydria,3
+Mania,3
+Myocardial ischaemia,3
+Eye disorder,3
+Thrombosis,3
+Priapism,3
+Anaphylactic shock,3
+Skin disorder,3
+Respiratory alkalosis,3
+Brain oedema,3
+Mucosal disorder,3
+Conversion disorder,3
+Hepatitis A,3
+Reye's syndrome,3
+Porphyria acute,3
+Basedow's disease,3
+Panic reaction,3
+Optic atrophy,2
+Withdrawal syndrome,2
+Scleritis,2
+Hunger,2
+Pain in jaw,2
+Bone disorder,2
+Albuminuria,2
+Bundle branch block,2
+Gastric ulcer,2
+Polycythaemia vera,2
+Papillitis,2
+Micturition disorder,2
+Tardive dyskinesia,2
+Lichen planus,2
+Immune thrombocytopenia,2
+Cerebral infarction,2
+Fixed eruption,2
+Neoplasm skin,2
+Pseudoporphyria,2
+Hypophosphataemia,2
+Skin fragility,2
+Breath sounds,2
+Aphonia,2
+Uterine spasm,2
+Anaemia megaloblastic,2
+Trismus,2
+Inflammation,2
+Corneal opacity,2
+Coronary artery disease,2
+Inflammatory bowel disease,2
+Aortic stenosis,2
+Colitis ischaemic,2
+Vascular malformation,2
+Epidermolysis bullosa,2
+Hypervolaemia,2
+Hypomagnesaemia,2
+Ligament sprain,2
+Panic disorder,2
+Electrocardiogram abnormal,2
+Patent ductus arteriosus,2
+Cardiospasm,2
+Angiodermatitis,2
+Catatonia,2
+Nuchal rigidity,2
+Pain of skin,2
+Lymphopenia,2
+Stillbirth,2
+Erythema nodosum,2
+Galactorrhoea,2
+Lacrimation disorder,2
+Accommodation disorder,2
+Aphthous ulcer,2
+Premature labour,2
+Ulcer,2
+Nephrosclerosis,2
+Breath sounds abnormal,2
+Nephropathy,2
+Hepatosplenomegaly,2
+Infertility,2
+Alkalosis,2
+Melanosis,2
+Dry throat,2
+Tendonitis,2
+Procedural pain,2
+Feeling drunk,2
+Nephritis,2
+Generalised anxiety disorder,2
+Skin irritation,2
+Growth retardation,2
+Goitre,2
+Adrenal suppression,2
+Menstruation delayed,2
+Genital discharge,2
+Blood alkaline phosphatase increased,2
+Skin abrasion,2
+Rash pruritic,2
+Gingival bleeding,2
+Derealisation,2
+Subarachnoid haemorrhage,2
+Hordeolum,2
+Cerebral thrombosis,2
+Skin exfoliation,2
+Suppressed lactation,2
+Restless legs syndrome,2
+Telangiectasia,2
+Intracranial pressure increased,2
+Gingival pain,2
+Retinal vein thrombosis,2
+Acute psychosis,2
+Gingivitis,2
+Loss of libido,2
+Pericarditis,2
+Osteoarthritis,2
+Glucose tolerance impaired,2
+Hypotonia,2
+Vaginal discharge,2
+Osteonecrosis,2
+Low density lipoprotein increased,2
+Vulvovaginal candidiasis,2
+Pemphigoid,2
+Parkinsonism,2
+Tooth discolouration,2
+International normalised ratio increased,2
+Epigastric discomfort,2
+Stupor,2
+Eye haemorrhage,2
+Sunburn,2
+Dermatitis acneiform,2
+Alcohol intolerance,2
+Oropharyngeal candidiasis,2
+Vulvovaginal pain,2
+Eye pruritus,2
+Hypokinesia,2
+Shock,2
+Facial paralysis,2
+Withdrawal bleed,2
+Paresis,2
+Blood bilirubin increased,2
+Muscle rigidity,2
+Retinal vascular thrombosis,2
+Infectious mononucleosis,2
+High density lipoprotein decreased,2
+Personality change,2
+Chloasma,2
+Aphasia,2
+Hemiplegia,2
+Psychiatric symptom,2
+Urethritis,1
+Skin atrophy,1
+Procedural nausea,1
+Burning sensation,1
+Tongue coated,1
+Viral skin infection,1
+Ejaculation delayed,1
+Radiculopathy,1
+Tetany,1
+Oropharyngitis fungal,1
+Haemorrhage subcutaneous,1
+Endometriosis,1
+Eye oedema,1
+Nasal dryness,1
+Optic neuropathy,1
+Disinhibition,1
+Folliculitis,1
+Prinzmetal angina,1
+Chromaturia,1
+Feeling of relaxation,1
+Oropharyngeal discomfort,1
+Aortic aneurysm,1
+Hemiparesis,1
+Salivary gland enlargement,1
+Xerophthalmia,1
+Cyanosis,1
+Dysdiadochokinesis,1
+Nasal polyps,1
+Perioral dermatitis,1
+Motion sickness,1
+Milk allergy,1
+Bladder dysfunction,1
+Pustule,1
+Dental discomfort,1
+Cardio-respiratory arrest,1
+Oral discomfort,1
+Rhinitis perennial,1
+Muscle injury,1
+Respiratory moniliasis,1
+Miliaria,1
+Atopy,1
+Pneumocystis jirovecii pneumonia,1
+Eczema herpeticum,1
+Oesophageal candidiasis,1
+Gastrointestinal infection,1
+Pleurisy,1
+Blindness transient,1
+Milia,1
+Enuresis,1
+Skin burning sensation,1
+Haemorrhage urinary tract,1
+Alcohol poisoning,1
+Gastrointestinal inflammation,1
+Illusion,1
+Sneezing,1
+Pustular psoriasis,1
+Encopresis,1
+Pharyngeal swelling,1
+Chorea,1
+Ejaculation failure,1
+Appetite disorder,1
+Head discomfort,1
+Dependence,1
+Dermatitis atopic,1
+Impetigo,1
+Hair growth abnormal,1
+Breast swelling,1
+Central nervous system vasculitis,1
+Muscle tightness,1
+Nasal inflammation,1
+Musculoskeletal deformity,1
+Medication overuse headache,1
+Skin wrinkling,1
+Cardiomyopathy,1
+Anosmia,1
+Viral upper respiratory tract infection,1
+Eye infection,1
+C-reactive protein increased,1
+Rash pustular,1
+Cortisol decreased,1
+Gastrointestinal fistula,1
+Vascular purpura,1
+Red blood cell sedimentation rate increased,1
+Gravitational oedema,1
+Diplegia,1
+Abortion,1
+Facial pain,1
+Retinal artery occlusion,1
+Stress,1
+Intervertebral disc disorder,1
+Giant cell arteritis,1
+Cluster headache,1
+Dissociation,1
+Seborrhoeic dermatitis,1
+Phobia,1
+Injection site bruising,1
+Hypersensitivity vasculitis,1
+Ventricular fibrillation,1
+Cystitis noninfective,1
+Drug abuse,1
+Lower respiratory tract infection,1
+Motor dysfunction,1
+Optic ischaemic neuropathy,1
+Arteriosclerosis,1
+Phonophobia,1
+Nasal septum perforation,1
+Hyperadrenocorticism,1
+Nasal mucosal disorder,1
+Intervertebral disc protrusion,1
+Lipoatrophy,1
+Vasospasm,1
+Insulin autoimmune syndrome,1
+Pigmentation disorder,1
+Overdose,1
+Throat tightness,1
+Affective disorder,1
+Skin laceration,1
+Bacterial infection,1
+Tongue oedema,1
+Eczema infected,1
+Dermatosis,1
+Acute sinusitis,1
+Skin papilloma,1
+Dental caries,1
+Vulvovaginitis,1
+Nasal mucosal ulcer,1
+Oral fungal infection,1
+Hypoaesthesia oral,1
+Breast discharge,1
+Sinus arrhythmia,1
+Muscle atrophy,1
+Diarrhoea haemorrhagic,1
+Serum sickness-like reaction,1
+Nephropathy toxic,1
+Dermatitis diaper,1
+Disseminated intravascular coagulation,1
+Oral disorder,1
+Penile infection,1
+Monocytosis,1
+Basophilia,1
+Localised oedema,1
+Hypoprothrombinaemia,1
+Lupus-like syndrome,1
+Pancreatitis acute,1
+Cerebral ischaemia,1
+Monoplegia,1
+Polydipsia,1
+Hypoglycaemic coma,1
+Xeroderma,1
+Snoring,1
+Platelet count decreased,1
+Swelling,1
+Suicidal behaviour,1
+Hair disorder,1
+Hypoventilation,1
+Status epilepticus,1
+Hyperlipidaemia,1
+Anal incontinence,1
+Pruritus genital,1
+Skin odour abnormal,1
+Occipital neuralgia,1
+Hernia,1
+Extensor plantar response,1
+Areflexia,1
+Movement disorder,1
+Irritable bowel syndrome,1
+Pulmonary thrombosis,1
+Loss of consciousness,1
+Diabetic ketoacidosis,1
+Epididymitis,1
+Pseudolymphoma,1
+Ovarian failure,1
+Labyrinthitis,1
+Hyperventilation,1
+Pneumonia aspiration,1
+Pericardial rub,1
+Muscle contracture,1
+Hyperreflexia,1
+Hiatus hernia,1
+Strabismus,1
+Post herpetic neuralgia,1
+Speech disorder,1
+Lip haemorrhage,1
+Paraesthesia oral,1
+Apraxia,1
+Costochondritis,1
+Varicose vein,1
+Chorioretinitis,1
+Antisocial behaviour,1
+Meningism,1
+Hyporeflexia,1
+Capillary fragility increased,1
+Furuncle,1
+Corneal disorder,1
+Electrolyte imbalance,1
+Arachnoiditis,1
+Oesophageal ulcer,1
+Sensory disturbance,1
+Compression fracture,1
+Lipids abnormal,1
+Jarisch-Herxheimer reaction,1
+Hypertrophic cardiomyopathy,1
+Tooth hypoplasia,1
+Postmenopausal haemorrhage,1
+Vulvovaginal mycotic infection,1
+Cataract subcapsular,1
+Schizophrenia,1
+Paraplegia,1
+Myocardial rupture,1
+Alkalosis hypokalaemic,1
+Mass,1
+Skin hyperpigmentation,1
+Ischaemic neuropathy,1
+Osteopenia,1
+Eustachian tube dysfunction,1
+Metabolic alkalosis,1
+Aura,1
+Skin hypertrophy,1
+Nasal obstruction,1
+Skin cancer,1
+Miosis,1
+Oesophageal spasm,1
+Retinal degeneration,1
+Bacterial vulvovaginitis,1
+Febrile neutropenia,1
+Petechiae,1
+Dementia,1
+Optic nerve injury,1
+Skin test,1
+Exophthalmos,1
+Sodium retention,1
+Fat embolism,1
+Paraparesis,1
+Angular cheilitis,1
+Encephalopathy,1
+Neoplasm,1
+Androgenetic alopecia,1
+Peripheral coldness,1
+Allergic pharyngitis,1
+Peyronie's disease,1
+Arterial insufficiency,1
+Myotonia,1
+Bronchiolitis,1
+Haematospermia,1
+Oculomucocutaneous syndrome,1
+Xanthopsia,1
+Blood glucose fluctuation,1
+Prostate cancer,1
+Cutaneous vasculitis,1
+Hypoglycaemic seizure,1
+Peripheral arterial occlusive disease,1
+Libido disorder,1
+Testicular pain,1
+Diverticulitis,1
+Hypomania,1
+Diabetic retinal oedema,1
+Macular oedema,1
+Leg amputation,1
+Bladder cancer,1
+Precocious puberty,1
+Vulvovaginal dryness,1
+Radius fracture,1
+Vulvovaginal pruritus,1
+Ovarian cyst,1
+Tumour pain,1
+Endometrial cancer,1
+Hip fracture,1
+Intraductal proliferative breast lesion,1
+Endometrial adenocarcinoma,1
+Lymphoedema,1
+Hypercalcaemia,1
+Oligomenorrhoea,1
+Acute coronary syndrome,1
+Blood creatine phosphokinase increased,1
+Idiosyncratic drug reaction,1
+Hyperinsulinaemic hypoglycaemia,1
+Coagulopathy,1
+Electrocardiogram QT prolonged,1
+Hypochromic anaemia,1
+Micturition urgency,1
+Cardiovascular disorder,1
+Vestibular disorder,1
+Myocarditis,1
+Retinopathy,1
+Balance disorder,1
+Proctitis,1
+Intestinal ulcer,1
+Supraventricular extrasystoles,1
+Subglottic laryngitis,1
+White blood cell count decreased,1
+Diabetic retinopathy,1
+Personality disorder,1
+Pericardial effusion,1
+Urine abnormality,1
+Neurosis,1
+Conjunctival hyperaemia,1
+Iritis,1
+Haematochezia,1
+Gamma-glutamyltransferase increased,1
+Obesity,1
+Non-Hodgkin's lymphoma,1
+Neuroleptic malignant syndrome,1
+Anal pruritus,1
+Hyperbilirubinaemia,1
+Sputum increased,1
+Bruxism,1
+Drug dependence,1
+Respiration abnormal,1
+Intermittent claudication,1
+Serositis,1
+Conduction disorder,1
+Non-cardiac chest pain,1
+Tracheobronchitis,1
+Arrhythmia supraventricular,1
+Sudden death,1
+Feeling cold,1
+Hangover,1
+Otitis externa,1
+Oculogyric crisis,1
