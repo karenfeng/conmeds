@@ -1,156 +1,156 @@
-,ID,Event,Item,Dictionary,Verbatim Term,Preferred Term,RXCUI,Drug Name,Normalized RxNorm Id,Approximate RxNorm Id,Best RxNorm Id,Requires Review
-0,1,Concomitant Medications,Generic Name,RxNorm,escitalopram,Escitalopram 20 MG,353383,Escitalopram 20 MG,321988,321988,321988,False
-1,1,Concomitant Medications,Generic Name,RxNorm,mirena,Mirena,152061,Mirena,152061,152061,152061,False
-2,2,Concomitant Medications,Generic Name,RxNorm,norethindrone,,,,7514,7514,7514,False
-3,3,Concomitant Medications,Generic Name,RxNorm,Metformin,Metformin,6809,Metformin,6809,6809,6809,False
-4,3,Concomitant Medications,Generic Name,RxNorm,Epesin,,,,,,,True
-5,4,Concomitant Medications,Generic Name,RxNorm,tylenol,,,,202433,202433,202433,False
-6,5,Concomitant Medications,Generic Name,RxNorm,Metformin,Metformin,6809,Metformin,6809,6809,6809,False
-7,5,Concomitant Medications,Generic Name,RxNorm,Lisinopril,Lisinopril,29046,Lisinopril,29046,29046,29046,False
-8,5,Concomitant Medications,Generic Name,RxNorm,Atorvastatin,atorvastatin,83367,atorvastatin,83367,83367,83367,False
-9,5,Concomitant Medications,Generic Name,RxNorm,benzonatate,benzonatate 100 MG,315473,benzonatate 100 MG,18993,18993,18993,False
-10,5,Concomitant Medications,Generic Name,RxNorm,beclomethasone dipropionate,Beclomethasone Dipropionate,1348,Beclomethasone Dipropionate,1348,1348,1348,False
-11,6,Concomitant Medications,Generic Name,RxNorm,Augmentin,Amoxicillin 1000 MG / Clavulanate 62.5 MG [Augmentin],618037,Amoxicillin 1000 MG / Clavulanate 62.5 MG [Augmentin],151392,151392,151392,False
-12,6,Concomitant Medications,Generic Name,RxNorm,Doxycycline,Doxycycline,3640,Doxycycline,3640,3640,3640,False
-13,6,Concomitant Medications,Generic Name,RxNorm,Advair,,,,301543,301543,301543,False
-14,6,Concomitant Medications,Generic Name,RxNorm,Prednisone,Prednisone 10 MG,317663,Prednisone 10 MG,8640,8640,8640,False
-15,7,Concomitant Medications,Generic Name,RxNorm,truvada,emtricitabine 133 MG / Tenofovir disoproxil fumarate 200 MG [Truvada],1744006,emtricitabine 133 MG / Tenofovir disoproxil fumarate 200 MG [Truvada],495430,495430,495430,False
-16,8,Concomitant Medications,Generic Name,RxNorm,lisinopril,,,,29046,29046,29046,False
-17,8,Concomitant Medications,Generic Name,RxNorm,atorvastatin,,,,83367,83367,83367,False
-18,8,Concomitant Medications,Generic Name,RxNorm,glipizide,,,,4821,4821,4821,False
-19,8,Concomitant Medications,Generic Name,RxNorm,metformin,,,,6809,6809,6809,False
-20,8,Concomitant Medications,Generic Name,RxNorm,gabapentin,,,,25480,25480,25480,False
-21,9,Concomitant Medications,Generic Name,RxNorm,advil,Advil,153010,Advil,153010,153010,153010,False
-22,9,Concomitant Medications,Generic Name,RxNorm,Naproxen,Naproxen,7258,Naproxen,7258,7258,7258,False
-23,9,Concomitant Medications,Generic Name,RxNorm,Lisinopril,Lisinopril,29046,Lisinopril,29046,29046,29046,False
-24,9,Concomitant Medications,Generic Name,RxNorm,Dayquil,DayQuil Cough,1114038,DayQuil Cough,,1114038,1114038,True
-25,9,Concomitant Medications,Generic Name,RxNorm,nyquil,Nyquil Cough,702274,Nyquil Cough,,1234386,1234386,True
-26,10,Concomitant Medications,Generic Name,RxNorm,ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,False
-27,10,Concomitant Medications,Generic Name,RxNorm,tylenol,Tylenol,202433,Tylenol,202433,202433,202433,False
-28,10,Concomitant Medications,Generic Name,RxNorm,tessalon perles,Tessalon Perles,220224,Tessalon Perles,220224,220224,220224,False
-29,11,Concomitant Medications,Generic Name,RxNorm,COVID Vaccine,,,,,2479830,2479830,True
-30,12,Concomitant Medications,Generic Name,RxNorm,ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,False
-31,13,Concomitant Medications,Generic Name,RxNorm,Advil,Advil,153010,Advil,153010,153010,153010,False
-32,14,Concomitant Medications,Generic Name,RxNorm,sudafed,Phenylephrine Hydrochloride 10 MG Oral Tablet [Sudafed PE],1052767,Phenylephrine Hydrochloride 10 MG Oral Tablet [Sudafed PE],203302,203302,203302,False
-33,14,Concomitant Medications,Generic Name,RxNorm,Excedrine Migraine,,,,,209468,209468,True
-34,15,Concomitant Medications,Generic Name,RxNorm,Fosinopril,Fosinopril Oral Tablet [Monopril],367691,Fosinopril Oral Tablet [Monopril],50166,50166,50166,False
-35,15,Concomitant Medications,Generic Name,RxNorm,COVID Vaccine (Pfizer),,,,,2468230,2468230,True
-36,16,Concomitant Medications,Generic Name,RxNorm,Zyrtec,ZyrTEC,58930,ZyrTEC,58930,58930,58930,False
-37,16,Concomitant Medications,Generic Name,RxNorm,Mirena,Mirena Drug Implant Product,1181044,Mirena Drug Implant Product,152061,152061,152061,False
-38,16,Concomitant Medications,Generic Name,RxNorm,Multivitamin,,,,,1234482,1234482,True
-39,16,Concomitant Medications,Generic Name,RxNorm,Sudafed,,,,203302,203302,203302,False
-40,16,Concomitant Medications,Generic Name,RxNorm,Dayquil,,,,,1114038,1114038,True
-41,16,Concomitant Medications,Generic Name,RxNorm,Nyquil,,,,,1234386,1234386,True
-42,17,Concomitant Medications,Generic Name,RxNorm,Aspirin,Aspirin,1191,Aspirin,1191,1191,1191,False
-43,17,Concomitant Medications,Generic Name,RxNorm,Levothyroxin,levothyroxine,10582,levothyroxine,10582,10582,10582,False
-44,17,Concomitant Medications,Generic Name,RxNorm,Tylenol,Tylenol,202433,Tylenol,202433,202433,202433,False
-45,17,Concomitant Medications,Generic Name,RxNorm,Calcium,Calcium,1895,Calcium,1895,1895,1895,False
-46,18,Concomitant Medications,Generic Name,RxNorm,tegretol,Tegretol Oral Product,1180855,Tegretol Oral Product,203029,203029,203029,False
-47,18,Concomitant Medications,Generic Name,RxNorm,tylenol,Tylenol,202433,Tylenol,202433,202433,202433,False
-48,18,Concomitant Medications,Generic Name,RxNorm,multivitamin,,,,,1234482,1234482,True
-49,18,Concomitant Medications,Generic Name,RxNorm,COVID Vaccine (Pfizer),,,,,2468230,2468230,True
-50,19,Concomitant Medications,Generic Name,RxNorm,Ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,False
-51,20,Concomitant Medications,Generic Name,RxNorm,albuterol,Albuterol,435,Albuterol,435,435,435,False
-52,20,Concomitant Medications,Generic Name,RxNorm,tylenol,Tylenol,202433,Tylenol,202433,202433,202433,False
-53,20,Concomitant Medications,Generic Name,RxNorm,Ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,False
-54,21,Concomitant Medications,Generic Name,RxNorm,Nyquil,Nyquil Cough,702274,Nyquil Cough,,1234386,1234386,True
-55,21,Concomitant Medications,Generic Name,RxNorm,Ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,False
-56,21,Concomitant Medications,Generic Name,RxNorm,COVID Vaccine,,,,,2479830,2479830,True
-57,21,Concomitant Medications,Generic Name,RxNorm,Vitamin C,Vitamin C TR,220879,Vitamin C TR,1151,1151,1151,False
-58,21,Concomitant Medications,Generic Name,RxNorm,Benzonatate,benzonatate,18993,benzonatate,18993,18993,18993,False
-59,21,Concomitant Medications,Generic Name,RxNorm,tylenol,Tylenol,202433,Tylenol,202433,202433,202433,False
-60,22,Concomitant Medications,Generic Name,RxNorm,tylenol,Tylenol,202433,Tylenol,202433,202433,202433,False
-61,22,Concomitant Medications,Generic Name,RxNorm,citalopram,Citalopram,2556,Citalopram,2556,2556,2556,False
-62,22,Concomitant Medications,Generic Name,RxNorm,Naproxen,Aleve,215101,Aleve,7258,7258,7258,False
-63,23,Concomitant Medications,Generic Name,RxNorm,chlorthaladone,,,,,2409,2409,True
-64,23,Concomitant Medications,Generic Name,RxNorm,propanolol,,,,8787,8787,8787,False
-65,23,Concomitant Medications,Generic Name,RxNorm,loratadine,24 HR desloratadine 5 MG / Pseudoephedrine sulfate 240 MG Extended Release Oral Tablet,1112258,24 HR desloratadine 5 MG / Pseudoephedrine sulfate 240 MG Extended Release Oral Tablet,28889,28889,28889,False
-66,23,Concomitant Medications,Generic Name,RxNorm,zyrtec,Zyrtec,58930,Zyrtec,58930,58930,58930,False
-67,23,Concomitant Medications,Generic Name,RxNorm,xyzol,,,,,398335,398335,True
-68,23,Concomitant Medications,Generic Name,RxNorm,truvada,Truvada Pill,1185615,Truvada Pill,495430,495430,495430,False
-69,23,Concomitant Medications,Generic Name,RxNorm,finesteride,,,,,25025,25025,True
-70,24,Concomitant Medications,Generic Name,RxNorm,metformin,,,,6809,6809,6809,False
-71,24,Concomitant Medications,Generic Name,RxNorm,pioglitazone,alogliptin 12.5 MG / pioglitazone 15 MG Oral Tablet,1368403,alogliptin 12.5 MG / pioglitazone 15 MG Oral Tablet,33738,33738,33738,False
-72,24,Concomitant Medications,Generic Name,RxNorm,glipizide,glipiZIDE,4821,glipiZIDE,4821,4821,4821,False
-73,24,Concomitant Medications,Generic Name,RxNorm,atorvastatin,atorvastatin,83367,atorvastatin,83367,83367,83367,False
-74,24,Concomitant Medications,Generic Name,RxNorm,vitamin c,,,,1151,1151,1151,False
-75,24,Concomitant Medications,Generic Name,RxNorm,vitamin d,,,,11253,11253,11253,False
-76,25,Concomitant Medications,Generic Name,RxNorm,Codeine cough syrup,,,,,756905,756905,True
-77,25,Concomitant Medications,Generic Name,RxNorm,azithromycin,Azithromycin,18631,Azithromycin,18631,18631,18631,False
-78,25,Concomitant Medications,Generic Name,RxNorm,Albuterol,Albuterol 0.09 MG/ACTUAT,329498,Albuterol 0.09 MG/ACTUAT,435,435,435,False
-79,25,Concomitant Medications,Generic Name,RxNorm,Qvar,Beclomethasone Dipropionate 0.04 MG/ACTUAT [Qvar],966537,Beclomethasone Dipropionate 0.04 MG/ACTUAT [Qvar],226084,226084,226084,False
-80,25,Concomitant Medications,Generic Name,RxNorm,Vitamin D3,Cholecalciferol 50000 UNT Oral Tablet [Dialyvite Vitamin D3 Max],1303916,Cholecalciferol 50000 UNT Oral Tablet [Dialyvite Vitamin D3 Max],1244014,1244014,1244014,False
-81,25,Concomitant Medications,Generic Name,RxNorm,Vitamin C,Vitamin C TR,220879,Vitamin C TR,1151,1151,1151,False
-82,25,Concomitant Medications,Generic Name,RxNorm,Acetaminophen,Acetaminophen,161,Acetaminophen,161,161,161,False
-83,26,Concomitant Medications,Generic Name,RxNorm,Hydrocortisone 2%,,,,,197784,197784,True
-84,26,Concomitant Medications,Generic Name,RxNorm,Tylenol,Tylenol Pill,1187315,Tylenol Pill,202433,202433,202433,False
-85,26,Concomitant Medications,Generic Name,RxNorm,Vitamin D3,,,,1244014,1244014,1244014,False
-86,26,Concomitant Medications,Generic Name,RxNorm,Sudafed,,,,203302,203302,203302,False
-87,27,Concomitant Medications,Generic Name,RxNorm,Decadron,Decadron Pill,1170298,Decadron Pill,227682,227682,227682,False
-88,27,Concomitant Medications,Generic Name,RxNorm,Tamoxifen,Tamoxifen,10324,Tamoxifen,10324,10324,10324,False
-89,28,Concomitant Medications,Generic Name,RxNorm,Glipizide,Glipizide 10 MG,317379,Glipizide 10 MG,4821,4821,4821,False
-90,28,Concomitant Medications,Generic Name,RxNorm,Metformin,Metformin,6809,Metformin,6809,6809,6809,False
-91,28,Concomitant Medications,Generic Name,RxNorm,Januvia,Januvia Pill,1167815,Januvia Pill,638596,638596,638596,False
-92,28,Concomitant Medications,Generic Name,RxNorm,robitussin dm,Robitussin DM,827249,Robitussin DM,,1790650,1790650,True
-93,28,Concomitant Medications,Generic Name,RxNorm,tessalon,Tessalon Perles,220224,Tessalon Perles,227783,227783,227783,False
-94,28,Concomitant Medications,Generic Name,RxNorm,Tylenol,Tylenol,202433,Tylenol,202433,202433,202433,False
-95,29,Concomitant Medications,Generic Name,RxNorm,levothyroxine,levothyroxine,10582,levothyroxine,10582,10582,10582,False
-96,29,Concomitant Medications,Generic Name,RxNorm,aspirin,Aspirin,1191,Aspirin,1191,1191,1191,False
-97,29,Concomitant Medications,Generic Name,RxNorm,clonazepam,clonazePAM,2598,clonazePAM,2598,2598,2598,False
-98,29,Concomitant Medications,Generic Name,RxNorm,vitamin d3,,,,1244014,1244014,1244014,False
-99,29,Concomitant Medications,Generic Name,RxNorm,Vitamin B12,,,,11248,11248,11248,False
-100,30,Concomitant Medications,Generic Name,RxNorm,Sumatriptan,SUMAtriptan,37418,SUMAtriptan,37418,37418,37418,False
-101,30,Concomitant Medications,Generic Name,RxNorm,escitalopram,Escitalopram,321988,Escitalopram,321988,321988,321988,False
-102,30,Concomitant Medications,Generic Name,RxNorm,vitamin d3,,,,1244014,1244014,1244014,False
-103,30,Concomitant Medications,Generic Name,RxNorm,B complex,,,,,801177,801177,True
-104,30,Concomitant Medications,Generic Name,RxNorm,"zinc, chelated",,,,253210,253210,253210,False
-105,30,Concomitant Medications,Generic Name,RxNorm,Vitamin C,,,,1151,1151,1151,False
-106,30,Concomitant Medications,Generic Name,RxNorm,aspirin,Aspirin,1191,Aspirin,1191,1191,1191,False
-107,31,Concomitant Medications,Generic Name,RxNorm,advil,Advil,153010,Advil,153010,153010,153010,False
-108,32,Concomitant Medications,Generic Name,RxNorm,Vitamin D3,,,,1244014,1244014,1244014,False
-109,32,Concomitant Medications,Generic Name,RxNorm,NyQuil,,,,,1234386,1234386,True
-110,32,Concomitant Medications,Generic Name,RxNorm,Ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,False
-111,32,Concomitant Medications,Generic Name,RxNorm,Vitamin B12,,,,11248,11248,11248,False
-112,33,Concomitant Medications,Generic Name,RxNorm,albuteral,Albuterol Sulfate,142153,Albuterol Sulfate,,435,435,True
-113,33,Concomitant Medications,Generic Name,RxNorm,budesonide,Budesonide 0.5 MG/ML Inhalant Solution,252559,Budesonide 0.5 MG/ML Inhalant Solution,19831,19831,19831,False
-114,33,Concomitant Medications,Generic Name,RxNorm,tessalon,Tessalon Perles,220224,Tessalon Perles,227783,227783,227783,False
-115,33,Concomitant Medications,Generic Name,RxNorm,norethi,{28 (Norethindrone 0.35 MG Oral Tablet) } Pack [Nora-BE 28 Day],748977,{28 (Norethindrone 0.35 MG Oral Tablet) } Pack [Nora-BE 28 Day],,7514,7514,True
-116,33,Concomitant Medications,Generic Name,RxNorm,Prilosec,PriLOSEC,203345,PriLOSEC,203345,203345,203345,False
-117,34,Concomitant Medications,Generic Name,RxNorm,Rybelsus,,,,2200645,2200645,2200645,False
-118,34,Concomitant Medications,Generic Name,RxNorm,Synjardy,,,,1664316,1664316,1664316,False
-119,34,Concomitant Medications,Generic Name,RxNorm,Vitamin D,,,,11253,11253,11253,False
-120,34,Concomitant Medications,Generic Name,RxNorm,Omega 3,,,,4301,4301,4301,False
-121,34,Concomitant Medications,Generic Name,RxNorm,Albuterol,,,,435,435,435,False
-122,34,Concomitant Medications,Generic Name,RxNorm,Azithromycin,Azithromycin,18631,Azithromycin,18631,18631,18631,False
-123,34,Concomitant Medications,Generic Name,RxNorm,Cefpodoxime,cefpodoxime 200 MG Oral Tablet,309078,cefpodoxime 200 MG Oral Tablet,20489,20489,20489,False
-124,35,Concomitant Medications,Generic Name,RxNorm,methemazole,,,,,6835,6835,True
-125,36,Concomitant Medications,Generic Name,RxNorm,sudafed,12 HR Pseudoephedrine Hydrochloride 120 MG Extended Release Oral Tablet [Sudafed],1049668,12 HR Pseudoephedrine Hydrochloride 120 MG Extended Release Oral Tablet [Sudafed],203302,203302,203302,False
-126,36,Concomitant Medications,Generic Name,RxNorm,mirapex,Mirapex Pill,1180461,Mirapex Pill,218402,218402,218402,False
-127,36,Concomitant Medications,Generic Name,RxNorm,dupixent,,,,1876402,1876402,1876402,False
-128,37,Concomitant Medications,Generic Name,RxNorm,Chinese Medicine,,,,,1368530,1368530,True
-129,37,Concomitant Medications,Generic Name,RxNorm,Vitamin C,,,,1151,1151,1151,False
-130,37,Concomitant Medications,Generic Name,RxNorm,Vitamin B,,,,11251,11251,11251,False
-131,38,Concomitant Medications,Generic Name,RxNorm,Fluticasone,,,,41126,41126,41126,False
-132,38,Concomitant Medications,Generic Name,RxNorm,Zyrtec,,,,58930,58930,58930,False
-133,38,Concomitant Medications,Generic Name,RxNorm,Albuterol,,,,435,435,435,False
-134,39,Concomitant Medications,Generic Name,RxNorm,acetaminophen,Acetaminophen,161,Acetaminophen,161,161,161,False
-135,40,Concomitant Medications,Generic Name,RxNorm,norgestimate/ethinyl estradiol,,,,214559,214559,214559,False
-136,41,Concomitant Medications,Generic Name,RxNorm,tylenol,Tylenol Pill,1187315,Tylenol Pill,202433,202433,202433,False
-137,41,Concomitant Medications,Generic Name,RxNorm,benzonatate,benzonatate 100 MG,315473,benzonatate 100 MG,18993,18993,18993,False
-138,42,Concomitant Medications,Generic Name,RxNorm,"""Viro-grip"" cold medicine",Tylenol Cold Relief (APAP 500 MG / diphenhydrAMINE hydrochloride 12.5 MG) Oral Tablet,1052645,Tylenol Cold Relief (APAP 500 MG / diphenhydrAMINE hydrochloride 12.5 MG) Oral Tablet,,1117392,1117392,True
-139,42,Concomitant Medications,Generic Name,RxNorm,ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,False
-140,42,Concomitant Medications,Generic Name,RxNorm,biotin,Biotin Pill,1154424,Biotin Pill,1588,1588,1588,False
-141,43,Concomitant Medications,Generic Name,RxNorm,Multivitamin,,,,,1234482,1234482,True
-142,43,Concomitant Medications,Generic Name,RxNorm,Tylenol,Tylenol,202433,Tylenol,202433,202433,202433,False
-143,43,Concomitant Medications,Generic Name,RxNorm,Albuterol,Albuterol,435,Albuterol,435,435,435,False
-144,43,Concomitant Medications,Generic Name,RxNorm,Antivert,Meclizine Oral Tablet [Antivert],368885,Meclizine Oral Tablet [Antivert],91818,91818,91818,False
-145,43,Concomitant Medications,Generic Name,RxNorm,Guaifenesin,Guaifenesin Pill,1159705,Guaifenesin Pill,5032,5032,5032,False
-146,43,Concomitant Medications,Generic Name,RxNorm,Flonase,Flonase Nasal Product,1801248,Flonase Nasal Product,83373,83373,83373,False
-147,43,Concomitant Medications,Generic Name,RxNorm,Ondansetron,Ondansetron,26225,Ondansetron,26225,26225,26225,False
-148,43,Concomitant Medications,Generic Name,RxNorm,Azithromycin,Azithromycin,18631,Azithromycin,18631,18631,18631,False
-149,43,Concomitant Medications,Generic Name,RxNorm,ofloxacin otic,Ofloxacin Otic Solution,377450,Ofloxacin Otic Solution,1160453,1160453,1160453,False
-150,44,Concomitant Medications,Generic Name,RxNorm,Levothyroxine,,,,10582,10582,10582,False
-151,45,Concomitant Medications,Generic Name,RxNorm,Tylenol,Tylenol,202433,Tylenol,202433,202433,202433,False
-152,45,Concomitant Medications,Generic Name,RxNorm,Vitamin C,,,,1151,1151,1151,False
-153,45,Concomitant Medications,Generic Name,RxNorm,Zinc,Zinc,11416,Zinc,11416,11416,11416,False
-154,45,Concomitant Medications,Generic Name,RxNorm,Vitamin D,Vitamin D,11253,Vitamin D,11253,11253,11253,False
+,ID,Event,Item,Dictionary,Verbatim Term,Preferred Term,RXCUI,Drug Name,Normalized RxNorm Id,Approximate RxNorm Id,Best RxNorm Id,Requires Review,Review,Notes,Alternative,Alternative Name
+4,3,Concomitant Medications,Generic Name,RxNorm,Epesin,,,,,,,TRUE,BAD,https://go.drugbank.com/drugs/DB08992,,
+24,9,Concomitant Medications,Generic Name,RxNorm,Dayquil,DayQuil Cough,1114038,DayQuil Cough,,1114038,1114038,TRUE,GOOD,,,
+25,9,Concomitant Medications,Generic Name,RxNorm,nyquil,Nyquil Cough,702274,Nyquil Cough,,1234386,1234386,TRUE,GOOD,"Nyquil has 2 formularies, one that includes acetaminophen (flu) and one that doesn't (cough). This is the cough, and could be missing a liver toxicity issue",1094549,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / doxylamine succinate 6.25 MG Oral Capsule
+29,11,Concomitant Medications,Generic Name,RxNorm,COVID Vaccine,,,,,2479830,2479830,TRUE,UNCERTAIN,"vector vaccine RXCUI, but not MRNA one",2468231,"SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein"
+33,14,Concomitant Medications,Generic Name,RxNorm,Excedrine Migraine,,,,,209468,209468,TRUE,GOOD,,,
+35,15,Concomitant Medications,Generic Name,RxNorm,COVID Vaccine (Pfizer),,,,,2468230,2468230,TRUE,GOOD,other COVID vaccine rxcui,,
+38,16,Concomitant Medications,Generic Name,RxNorm,Multivitamin,,,,,1234482,1234482,TRUE,UNCERTAIN,"Wrong route of administration and likely dosing, but likely better than patient memory",,
+40,16,Concomitant Medications,Generic Name,RxNorm,Dayquil,,,,,1114038,1114038,TRUE,GOOD,,,
+41,16,Concomitant Medications,Generic Name,RxNorm,Nyquil,,,,,1234386,1234386,TRUE,GOOD,"Nyquil has 2 formularies, one that includes acetaminophen (flu) and one that doesn't (cough). This is the cough, and could be missing a liver toxicity issue",1094549,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / doxylamine succinate 6.25 MG Oral Capsule
+48,18,Concomitant Medications,Generic Name,RxNorm,multivitamin,,,,,1234482,1234482,TRUE,UNCERTAIN,"Wrong route of administration and likely dosing, but likely better than patient memory",,
+49,18,Concomitant Medications,Generic Name,RxNorm,COVID Vaccine (Pfizer),,,,,2468230,2468230,TRUE,GOOD,,,
+54,21,Concomitant Medications,Generic Name,RxNorm,Nyquil,Nyquil Cough,702274,Nyquil Cough,,1234386,1234386,TRUE,GOOD,"Nyquil has 2 formularies, one that includes acetaminophen (flu) and one that doesn't (cough). This is the cough, and could be missing a liver toxicity issue",1094549,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / doxylamine succinate 6.25 MG Oral Capsule
+56,21,Concomitant Medications,Generic Name,RxNorm,COVID Vaccine,,,,,2479830,2479830,TRUE,UNCERTAIN,"vector vaccine RXCUI, but not MRNA one",2468231,"SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein"
+63,23,Concomitant Medications,Generic Name,RxNorm,chlorthaladone,,,,,2409,2409,TRUE,GOOD,spelled wrong,2409,chlorthalidone
+67,23,Concomitant Medications,Generic Name,RxNorm,xyzol,,,,,398335,398335,TRUE,GOOD,spelled wrong,2409,chlorthalidone
+69,23,Concomitant Medications,Generic Name,RxNorm,finesteride,,,,,25025,25025,TRUE,GOOD,spelled wrong,25025,finasteride
+76,25,Concomitant Medications,Generic Name,RxNorm,Codeine cough syrup,,,,,756905,756905,TRUE,BAD,is this even available?,,
+83,26,Concomitant Medications,Generic Name,RxNorm,Hydrocortisone 2%,,,,,197784,197784,TRUE,GOOD,this is a topical cream,,
+92,28,Concomitant Medications,Generic Name,RxNorm,robitussin dm,Robitussin DM,827249,Robitussin DM,,1790650,1790650,TRUE,GOOD,,,
+103,30,Concomitant Medications,Generic Name,RxNorm,B complex,,,,,801177,801177,TRUE,UNCERTAIN,wrong route of administration but it’s a multi vitamin,,
+109,32,Concomitant Medications,Generic Name,RxNorm,NyQuil,,,,,1234386,1234386,TRUE,GOOD,"Nyquil has 2 formularies, one that includes acetaminophen (flu) and one that doesn't (cough). This is the cough, and could be missing a liver toxicity issue",1094549,acetaminophen 325 MG / dextromethorphan hydrobromide 15 MG / doxylamine succinate 6.25 MG Oral Capsule
+112,33,Concomitant Medications,Generic Name,RxNorm,albuteral,Albuterol Sulfate,142153,Albuterol Sulfate,,435,435,TRUE,GOOD,,,
+115,33,Concomitant Medications,Generic Name,RxNorm,norethi,{28 (Norethindrone 0.35 MG Oral Tablet) } Pack [Nora-BE 28 Day],748977,{28 (Norethindrone 0.35 MG Oral Tablet) } Pack [Nora-BE 28 Day],,7514,7514,TRUE,GOOD,birth control/endometriosis drug- a form of progestin,,
+124,35,Concomitant Medications,Generic Name,RxNorm,methemazole,,,,,6835,6835,TRUE,GOOD,thyroid med,,
+128,37,Concomitant Medications,Generic Name,RxNorm,Chinese Medicine,,,,,1368530,1368530,TRUE,BAD,Throw out?,,
+138,42,Concomitant Medications,Generic Name,RxNorm,"""Viro-grip"" cold medicine",Tylenol Cold Relief (APAP 500 MG / diphenhydrAMINE hydrochloride 12.5 MG) Oral Tablet,1052645,Tylenol Cold Relief (APAP 500 MG / diphenhydrAMINE hydrochloride 12.5 MG) Oral Tablet,,1117392,1117392,TRUE,UNCERTAIN,https://pattymart.com/virogrip-gel-dia/,"Paracetamol, Phenylephrine, Chlorpheniramine Maleate",
+141,43,Concomitant Medications,Generic Name,RxNorm,Multivitamin,,,,,1234482,1234482,TRUE,UNCERTAIN,"Wrong route of administration and likely dosing, but likely better than patient memory",,
+0,1,Concomitant Medications,Generic Name,RxNorm,escitalopram,Escitalopram 20 MG,353383,Escitalopram 20 MG,321988,321988,321988,FALSE,,,,
+1,1,Concomitant Medications,Generic Name,RxNorm,mirena,Mirena,152061,Mirena,152061,152061,152061,FALSE,,,,
+2,2,Concomitant Medications,Generic Name,RxNorm,norethindrone,,,,7514,7514,7514,FALSE,,,,
+3,3,Concomitant Medications,Generic Name,RxNorm,Metformin,Metformin,6809,Metformin,6809,6809,6809,FALSE,,,,
+5,4,Concomitant Medications,Generic Name,RxNorm,tylenol,,,,202433,202433,202433,FALSE,,,,
+6,5,Concomitant Medications,Generic Name,RxNorm,Metformin,Metformin,6809,Metformin,6809,6809,6809,FALSE,,,,
+7,5,Concomitant Medications,Generic Name,RxNorm,Lisinopril,Lisinopril,29046,Lisinopril,29046,29046,29046,FALSE,,,,
+8,5,Concomitant Medications,Generic Name,RxNorm,Atorvastatin,atorvastatin,83367,atorvastatin,83367,83367,83367,FALSE,,,,
+9,5,Concomitant Medications,Generic Name,RxNorm,benzonatate,benzonatate 100 MG,315473,benzonatate 100 MG,18993,18993,18993,FALSE,,,,
+10,5,Concomitant Medications,Generic Name,RxNorm,beclomethasone dipropionate,Beclomethasone Dipropionate,1348,Beclomethasone Dipropionate,1348,1348,1348,FALSE,,,,
+11,6,Concomitant Medications,Generic Name,RxNorm,Augmentin,Amoxicillin 1000 MG / Clavulanate 62.5 MG [Augmentin],618037,Amoxicillin 1000 MG / Clavulanate 62.5 MG [Augmentin],151392,151392,151392,FALSE,,,,
+12,6,Concomitant Medications,Generic Name,RxNorm,Doxycycline,Doxycycline,3640,Doxycycline,3640,3640,3640,FALSE,,,,
+13,6,Concomitant Medications,Generic Name,RxNorm,Advair,,,,301543,301543,301543,FALSE,,,,
+14,6,Concomitant Medications,Generic Name,RxNorm,Prednisone,Prednisone 10 MG,317663,Prednisone 10 MG,8640,8640,8640,FALSE,,,,
+15,7,Concomitant Medications,Generic Name,RxNorm,truvada,emtricitabine 133 MG / Tenofovir disoproxil fumarate 200 MG [Truvada],1744006,emtricitabine 133 MG / Tenofovir disoproxil fumarate 200 MG [Truvada],495430,495430,495430,FALSE,,,,
+16,8,Concomitant Medications,Generic Name,RxNorm,lisinopril,,,,29046,29046,29046,FALSE,,,,
+17,8,Concomitant Medications,Generic Name,RxNorm,atorvastatin,,,,83367,83367,83367,FALSE,,,,
+18,8,Concomitant Medications,Generic Name,RxNorm,glipizide,,,,4821,4821,4821,FALSE,,,,
+19,8,Concomitant Medications,Generic Name,RxNorm,metformin,,,,6809,6809,6809,FALSE,,,,
+20,8,Concomitant Medications,Generic Name,RxNorm,gabapentin,,,,25480,25480,25480,FALSE,,,,
+21,9,Concomitant Medications,Generic Name,RxNorm,advil,Advil,153010,Advil,153010,153010,153010,FALSE,,,,
+22,9,Concomitant Medications,Generic Name,RxNorm,Naproxen,Naproxen,7258,Naproxen,7258,7258,7258,FALSE,,,,
+23,9,Concomitant Medications,Generic Name,RxNorm,Lisinopril,Lisinopril,29046,Lisinopril,29046,29046,29046,FALSE,,,,
+26,10,Concomitant Medications,Generic Name,RxNorm,ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,FALSE,,,,
+27,10,Concomitant Medications,Generic Name,RxNorm,tylenol,Tylenol,202433,Tylenol,202433,202433,202433,FALSE,,,,
+28,10,Concomitant Medications,Generic Name,RxNorm,tessalon perles,Tessalon Perles,220224,Tessalon Perles,220224,220224,220224,FALSE,,,,
+30,12,Concomitant Medications,Generic Name,RxNorm,ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,FALSE,,,,
+31,13,Concomitant Medications,Generic Name,RxNorm,Advil,Advil,153010,Advil,153010,153010,153010,FALSE,,,,
+32,14,Concomitant Medications,Generic Name,RxNorm,sudafed,Phenylephrine Hydrochloride 10 MG Oral Tablet [Sudafed PE],1052767,Phenylephrine Hydrochloride 10 MG Oral Tablet [Sudafed PE],203302,203302,203302,FALSE,,,,
+34,15,Concomitant Medications,Generic Name,RxNorm,Fosinopril,Fosinopril Oral Tablet [Monopril],367691,Fosinopril Oral Tablet [Monopril],50166,50166,50166,FALSE,,,,
+36,16,Concomitant Medications,Generic Name,RxNorm,Zyrtec,ZyrTEC,58930,ZyrTEC,58930,58930,58930,FALSE,,,,
+37,16,Concomitant Medications,Generic Name,RxNorm,Mirena,Mirena Drug Implant Product,1181044,Mirena Drug Implant Product,152061,152061,152061,FALSE,,,,
+39,16,Concomitant Medications,Generic Name,RxNorm,Sudafed,,,,203302,203302,203302,FALSE,,,,
+42,17,Concomitant Medications,Generic Name,RxNorm,Aspirin,Aspirin,1191,Aspirin,1191,1191,1191,FALSE,,,,
+43,17,Concomitant Medications,Generic Name,RxNorm,Levothyroxin,levothyroxine,10582,levothyroxine,10582,10582,10582,FALSE,,,,
+44,17,Concomitant Medications,Generic Name,RxNorm,Tylenol,Tylenol,202433,Tylenol,202433,202433,202433,FALSE,,,,
+45,17,Concomitant Medications,Generic Name,RxNorm,Calcium,Calcium,1895,Calcium,1895,1895,1895,FALSE,,,,
+46,18,Concomitant Medications,Generic Name,RxNorm,tegretol,Tegretol Oral Product,1180855,Tegretol Oral Product,203029,203029,203029,FALSE,,,,
+47,18,Concomitant Medications,Generic Name,RxNorm,tylenol,Tylenol,202433,Tylenol,202433,202433,202433,FALSE,,,,
+50,19,Concomitant Medications,Generic Name,RxNorm,Ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,FALSE,,,,
+51,20,Concomitant Medications,Generic Name,RxNorm,albuterol,Albuterol,435,Albuterol,435,435,435,FALSE,,,,
+52,20,Concomitant Medications,Generic Name,RxNorm,tylenol,Tylenol,202433,Tylenol,202433,202433,202433,FALSE,,,,
+53,20,Concomitant Medications,Generic Name,RxNorm,Ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,FALSE,,,,
+55,21,Concomitant Medications,Generic Name,RxNorm,Ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,FALSE,,,,
+57,21,Concomitant Medications,Generic Name,RxNorm,Vitamin C,Vitamin C TR,220879,Vitamin C TR,1151,1151,1151,FALSE,,,,
+58,21,Concomitant Medications,Generic Name,RxNorm,Benzonatate,benzonatate,18993,benzonatate,18993,18993,18993,FALSE,,,,
+59,21,Concomitant Medications,Generic Name,RxNorm,tylenol,Tylenol,202433,Tylenol,202433,202433,202433,FALSE,,,,
+60,22,Concomitant Medications,Generic Name,RxNorm,tylenol,Tylenol,202433,Tylenol,202433,202433,202433,FALSE,,,,
+61,22,Concomitant Medications,Generic Name,RxNorm,citalopram,Citalopram,2556,Citalopram,2556,2556,2556,FALSE,,,,
+62,22,Concomitant Medications,Generic Name,RxNorm,Naproxen,Aleve,215101,Aleve,7258,7258,7258,FALSE,,,,
+64,23,Concomitant Medications,Generic Name,RxNorm,propanolol,,,,8787,8787,8787,FALSE,,,,
+65,23,Concomitant Medications,Generic Name,RxNorm,loratadine,24 HR desloratadine 5 MG / Pseudoephedrine sulfate 240 MG Extended Release Oral Tablet,1112258,24 HR desloratadine 5 MG / Pseudoephedrine sulfate 240 MG Extended Release Oral Tablet,28889,28889,28889,FALSE,,,,
+66,23,Concomitant Medications,Generic Name,RxNorm,zyrtec,Zyrtec,58930,Zyrtec,58930,58930,58930,FALSE,,,,
+68,23,Concomitant Medications,Generic Name,RxNorm,truvada,Truvada Pill,1185615,Truvada Pill,495430,495430,495430,FALSE,,,,
+70,24,Concomitant Medications,Generic Name,RxNorm,metformin,,,,6809,6809,6809,FALSE,,,,
+71,24,Concomitant Medications,Generic Name,RxNorm,pioglitazone,alogliptin 12.5 MG / pioglitazone 15 MG Oral Tablet,1368403,alogliptin 12.5 MG / pioglitazone 15 MG Oral Tablet,33738,33738,33738,FALSE,,,,
+72,24,Concomitant Medications,Generic Name,RxNorm,glipizide,glipiZIDE,4821,glipiZIDE,4821,4821,4821,FALSE,,,,
+73,24,Concomitant Medications,Generic Name,RxNorm,atorvastatin,atorvastatin,83367,atorvastatin,83367,83367,83367,FALSE,,,,
+74,24,Concomitant Medications,Generic Name,RxNorm,vitamin c,,,,1151,1151,1151,FALSE,,,,
+75,24,Concomitant Medications,Generic Name,RxNorm,vitamin d,,,,11253,11253,11253,FALSE,,,,
+77,25,Concomitant Medications,Generic Name,RxNorm,azithromycin,Azithromycin,18631,Azithromycin,18631,18631,18631,FALSE,,,,
+78,25,Concomitant Medications,Generic Name,RxNorm,Albuterol,Albuterol 0.09 MG/ACTUAT,329498,Albuterol 0.09 MG/ACTUAT,435,435,435,FALSE,,,,
+79,25,Concomitant Medications,Generic Name,RxNorm,Qvar,Beclomethasone Dipropionate 0.04 MG/ACTUAT [Qvar],966537,Beclomethasone Dipropionate 0.04 MG/ACTUAT [Qvar],226084,226084,226084,FALSE,,,,
+80,25,Concomitant Medications,Generic Name,RxNorm,Vitamin D3,Cholecalciferol 50000 UNT Oral Tablet [Dialyvite Vitamin D3 Max],1303916,Cholecalciferol 50000 UNT Oral Tablet [Dialyvite Vitamin D3 Max],1244014,1244014,1244014,FALSE,,,,
+81,25,Concomitant Medications,Generic Name,RxNorm,Vitamin C,Vitamin C TR,220879,Vitamin C TR,1151,1151,1151,FALSE,,,,
+82,25,Concomitant Medications,Generic Name,RxNorm,Acetaminophen,Acetaminophen,161,Acetaminophen,161,161,161,FALSE,,,,
+84,26,Concomitant Medications,Generic Name,RxNorm,Tylenol,Tylenol Pill,1187315,Tylenol Pill,202433,202433,202433,FALSE,,,,
+85,26,Concomitant Medications,Generic Name,RxNorm,Vitamin D3,,,,1244014,1244014,1244014,FALSE,,,,
+86,26,Concomitant Medications,Generic Name,RxNorm,Sudafed,,,,203302,203302,203302,FALSE,,,,
+87,27,Concomitant Medications,Generic Name,RxNorm,Decadron,Decadron Pill,1170298,Decadron Pill,227682,227682,227682,FALSE,,,,
+88,27,Concomitant Medications,Generic Name,RxNorm,Tamoxifen,Tamoxifen,10324,Tamoxifen,10324,10324,10324,FALSE,,,,
+89,28,Concomitant Medications,Generic Name,RxNorm,Glipizide,Glipizide 10 MG,317379,Glipizide 10 MG,4821,4821,4821,FALSE,,,,
+90,28,Concomitant Medications,Generic Name,RxNorm,Metformin,Metformin,6809,Metformin,6809,6809,6809,FALSE,,,,
+91,28,Concomitant Medications,Generic Name,RxNorm,Januvia,Januvia Pill,1167815,Januvia Pill,638596,638596,638596,FALSE,,,,
+93,28,Concomitant Medications,Generic Name,RxNorm,tessalon,Tessalon Perles,220224,Tessalon Perles,227783,227783,227783,FALSE,,,,
+94,28,Concomitant Medications,Generic Name,RxNorm,Tylenol,Tylenol,202433,Tylenol,202433,202433,202433,FALSE,,,,
+95,29,Concomitant Medications,Generic Name,RxNorm,levothyroxine,levothyroxine,10582,levothyroxine,10582,10582,10582,FALSE,,,,
+96,29,Concomitant Medications,Generic Name,RxNorm,aspirin,Aspirin,1191,Aspirin,1191,1191,1191,FALSE,,,,
+97,29,Concomitant Medications,Generic Name,RxNorm,clonazepam,clonazePAM,2598,clonazePAM,2598,2598,2598,FALSE,,,,
+98,29,Concomitant Medications,Generic Name,RxNorm,vitamin d3,,,,1244014,1244014,1244014,FALSE,,,,
+99,29,Concomitant Medications,Generic Name,RxNorm,Vitamin B12,,,,11248,11248,11248,FALSE,,,,
+100,30,Concomitant Medications,Generic Name,RxNorm,Sumatriptan,SUMAtriptan,37418,SUMAtriptan,37418,37418,37418,FALSE,,,,
+101,30,Concomitant Medications,Generic Name,RxNorm,escitalopram,Escitalopram,321988,Escitalopram,321988,321988,321988,FALSE,,,,
+102,30,Concomitant Medications,Generic Name,RxNorm,vitamin d3,,,,1244014,1244014,1244014,FALSE,,,,
+104,30,Concomitant Medications,Generic Name,RxNorm,"zinc, chelated",,,,253210,253210,253210,FALSE,,,,
+105,30,Concomitant Medications,Generic Name,RxNorm,Vitamin C,,,,1151,1151,1151,FALSE,,,,
+106,30,Concomitant Medications,Generic Name,RxNorm,aspirin,Aspirin,1191,Aspirin,1191,1191,1191,FALSE,,,,
+107,31,Concomitant Medications,Generic Name,RxNorm,advil,Advil,153010,Advil,153010,153010,153010,FALSE,,,,
+108,32,Concomitant Medications,Generic Name,RxNorm,Vitamin D3,,,,1244014,1244014,1244014,FALSE,,,,
+110,32,Concomitant Medications,Generic Name,RxNorm,Ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,FALSE,,,,
+111,32,Concomitant Medications,Generic Name,RxNorm,Vitamin B12,,,,11248,11248,11248,FALSE,,,,
+113,33,Concomitant Medications,Generic Name,RxNorm,budesonide,Budesonide 0.5 MG/ML Inhalant Solution,252559,Budesonide 0.5 MG/ML Inhalant Solution,19831,19831,19831,FALSE,,,,
+114,33,Concomitant Medications,Generic Name,RxNorm,tessalon,Tessalon Perles,220224,Tessalon Perles,227783,227783,227783,FALSE,,,,
+116,33,Concomitant Medications,Generic Name,RxNorm,Prilosec,PriLOSEC,203345,PriLOSEC,203345,203345,203345,FALSE,,,,
+117,34,Concomitant Medications,Generic Name,RxNorm,Rybelsus,,,,2200645,2200645,2200645,FALSE,,,,
+118,34,Concomitant Medications,Generic Name,RxNorm,Synjardy,,,,1664316,1664316,1664316,FALSE,,,,
+119,34,Concomitant Medications,Generic Name,RxNorm,Vitamin D,,,,11253,11253,11253,FALSE,,,,
+120,34,Concomitant Medications,Generic Name,RxNorm,Omega 3,,,,4301,4301,4301,FALSE,,,,
+121,34,Concomitant Medications,Generic Name,RxNorm,Albuterol,,,,435,435,435,FALSE,,,,
+122,34,Concomitant Medications,Generic Name,RxNorm,Azithromycin,Azithromycin,18631,Azithromycin,18631,18631,18631,FALSE,,,,
+123,34,Concomitant Medications,Generic Name,RxNorm,Cefpodoxime,cefpodoxime 200 MG Oral Tablet,309078,cefpodoxime 200 MG Oral Tablet,20489,20489,20489,FALSE,,,,
+125,36,Concomitant Medications,Generic Name,RxNorm,sudafed,12 HR Pseudoephedrine Hydrochloride 120 MG Extended Release Oral Tablet [Sudafed],1049668,12 HR Pseudoephedrine Hydrochloride 120 MG Extended Release Oral Tablet [Sudafed],203302,203302,203302,FALSE,,,,
+126,36,Concomitant Medications,Generic Name,RxNorm,mirapex,Mirapex Pill,1180461,Mirapex Pill,218402,218402,218402,FALSE,,,,
+127,36,Concomitant Medications,Generic Name,RxNorm,dupixent,,,,1876402,1876402,1876402,FALSE,,,,
+129,37,Concomitant Medications,Generic Name,RxNorm,Vitamin C,,,,1151,1151,1151,FALSE,,,,
+130,37,Concomitant Medications,Generic Name,RxNorm,Vitamin B,,,,11251,11251,11251,FALSE,,,,
+131,38,Concomitant Medications,Generic Name,RxNorm,Fluticasone,,,,41126,41126,41126,FALSE,,,,
+132,38,Concomitant Medications,Generic Name,RxNorm,Zyrtec,,,,58930,58930,58930,FALSE,,,,
+133,38,Concomitant Medications,Generic Name,RxNorm,Albuterol,,,,435,435,435,FALSE,,,,
+134,39,Concomitant Medications,Generic Name,RxNorm,acetaminophen,Acetaminophen,161,Acetaminophen,161,161,161,FALSE,,,,
+135,40,Concomitant Medications,Generic Name,RxNorm,norgestimate/ethinyl estradiol,,,,214559,214559,214559,FALSE,,,,
+136,41,Concomitant Medications,Generic Name,RxNorm,tylenol,Tylenol Pill,1187315,Tylenol Pill,202433,202433,202433,FALSE,,,,
+137,41,Concomitant Medications,Generic Name,RxNorm,benzonatate,benzonatate 100 MG,315473,benzonatate 100 MG,18993,18993,18993,FALSE,,,,
+139,42,Concomitant Medications,Generic Name,RxNorm,ibuprofen,Ibuprofen,5640,Ibuprofen,5640,5640,5640,FALSE,,,,
+140,42,Concomitant Medications,Generic Name,RxNorm,biotin,Biotin Pill,1154424,Biotin Pill,1588,1588,1588,FALSE,,,,
+142,43,Concomitant Medications,Generic Name,RxNorm,Tylenol,Tylenol,202433,Tylenol,202433,202433,202433,FALSE,,,,
+143,43,Concomitant Medications,Generic Name,RxNorm,Albuterol,Albuterol,435,Albuterol,435,435,435,FALSE,,,,
+144,43,Concomitant Medications,Generic Name,RxNorm,Antivert,Meclizine Oral Tablet [Antivert],368885,Meclizine Oral Tablet [Antivert],91818,91818,91818,FALSE,,,,
+145,43,Concomitant Medications,Generic Name,RxNorm,Guaifenesin,Guaifenesin Pill,1159705,Guaifenesin Pill,5032,5032,5032,FALSE,,,,
+146,43,Concomitant Medications,Generic Name,RxNorm,Flonase,Flonase Nasal Product,1801248,Flonase Nasal Product,83373,83373,83373,FALSE,,,,
+147,43,Concomitant Medications,Generic Name,RxNorm,Ondansetron,Ondansetron,26225,Ondansetron,26225,26225,26225,FALSE,,,,
+148,43,Concomitant Medications,Generic Name,RxNorm,Azithromycin,Azithromycin,18631,Azithromycin,18631,18631,18631,FALSE,,,,
+149,43,Concomitant Medications,Generic Name,RxNorm,ofloxacin otic,Ofloxacin Otic Solution,377450,Ofloxacin Otic Solution,1160453,1160453,1160453,FALSE,,,,
+150,44,Concomitant Medications,Generic Name,RxNorm,Levothyroxine,,,,10582,10582,10582,FALSE,,,,
+151,45,Concomitant Medications,Generic Name,RxNorm,Tylenol,Tylenol,202433,Tylenol,202433,202433,202433,FALSE,,,,
+152,45,Concomitant Medications,Generic Name,RxNorm,Vitamin C,,,,1151,1151,1151,FALSE,,,,
+153,45,Concomitant Medications,Generic Name,RxNorm,Zinc,Zinc,11416,Zinc,11416,11416,11416,FALSE,,,,
+154,45,Concomitant Medications,Generic Name,RxNorm,Vitamin D,Vitamin D,11253,Vitamin D,11253,11253,11253,FALSE,,,,
