@@ -1,0 +1,583 @@
+"Diseases, Life Phases, Behavior Mechanisms and Physiologic States",44
+Disease,44
+"Pathological Conditions, Signs and Symptoms",35
+Infections,33
+Nervous System Diseases,32
+Metabolic Diseases,32
+Nutritional and Metabolic Diseases,32
+Signs and Symptoms,32
+Immune System Diseases,31
+Pathologic Processes,30
+Skin and Connective Tissue Diseases,30
+Pain,27
+Respiratory Tract Diseases,27
+Neurologic Manifestations,27
+"Genetic Diseases, Inborn",25
+"Congenital, Hereditary, and Neonatal Diseases and Abnormalities",25
+Urogenital Diseases,25
+Body Temperature Changes,24
+Fever,24
+Respiratory Tract Infections,24
+Female Urogenital Diseases,24
+Female Urogenital Diseases and Pregnancy Complications,24
+"Metabolism, Inborn Errors",23
+Endocrine System Diseases,23
+Inflammation,21
+Autoimmune Diseases,21
+Musculoskeletal Diseases,21
+Respiratory Hypersensitivity,19
+Connective Tissue Diseases,19
+"Hypersensitivity, Immediate",19
+Hypersensitivity,19
+Genital Diseases,19
+Otorhinolaryngologic Diseases,18
+Nose Diseases,18
+RNA Virus Infections,18
+Rheumatic Diseases,18
+Virus Diseases,18
+Arthritis,17
+Central Nervous System Diseases,17
+Joint Diseases,17
+Rhinitis,17
+"Rhinitis, Allergic, Perennial",17
+"Rhinitis, Allergic",17
+Brain Diseases,16
+Bone Diseases,16
+Common Cold,16
+Picornaviridae Infections,16
+Gout,15
+"Arthritis, Rheumatoid",15
+Hemorrhage,15
+Vascular Diseases,15
+Lung Diseases,15
+Cardiovascular Diseases,15
+Skin Diseases,15
+Osteoarthritis,15
+"Purine-Pyrimidine Metabolism, Inborn Errors",15
+Crystal Arthropathies,15
+Glucose Metabolism Disorders,14
+Menstruation Disturbances,14
+Diabetes Mellitus,14
+Axial Spondyloarthritis,13
+Spondylarthropathies,13
+Hematologic Diseases,13
+"Lung Diseases, Obstructive",13
+Spondylitis,13
+Bursitis,13
+"Spondylitis, Ankylosing",13
+Male Urogenital Diseases,13
+"Bone Diseases, Infectious",13
+Spondylarthritis,13
+"Genital Diseases, Female",13
+Menorrhagia,13
+Uterine Hemorrhage,13
+Bronchial Diseases,13
+Respiration Disorders,13
+Spinal Diseases,13
+Mental Disorders,13
+Hemic and Lymphatic Diseases,13
+Ankylosis,13
+"Signs and Symptoms, Respiratory",13
+Uterine Diseases,13
+Asthma,12
+Malnutrition,12
+Avitaminosis,12
+Deficiency Diseases,12
+Nutrition Disorders,12
+Cough,12
+Neoplasms,11
+Hemorrhagic Disorders,11
+Dysmenorrhea,11
+Bacterial Infections and Mycoses,11
+Postoperative Complications,11
+Urologic Diseases,11
+"Arthritis, Juvenile",11
+Bacterial Infections,11
+"Pain, Postoperative",11
+Pelvic Pain,11
+Sinusitis,10
+Paranasal Sinus Diseases,10
+Wounds and Injuries,10
+Diabetes Complications,10
+Neoplasms by Site,10
+Premenstrual Syndrome,10
+"Brain Diseases, Metabolic",9
+Kidney Diseases,9
+Scurvy,9
+"Brain Diseases, Metabolic, Inborn",9
+"Amino Acid Metabolism, Inborn Errors",9
+Gram-Positive Bacterial Infections,9
+Ascorbic Acid Deficiency,9
+Methemoglobinemia,9
+"Wounds, Penetrating",9
+Digestive System Diseases,9
+Hemostatic Disorders,9
+Tyrosinemias,9
+Chemically-Induced Disorders,8
+Stomatognathic Diseases,8
+Streptococcal Infections,8
+Neuromuscular Diseases,8
+Gastrointestinal Diseases,8
+Disease Attributes,8
+Peripheral Nervous System Diseases,8
+Dyslipidemias,8
+Hyperlipidemias,8
+Lipid Metabolism Disorders,8
+Hypertriglyceridemia,8
+"Signs and Symptoms, Digestive",7
+Inflammatory Bowel Diseases,7
+Dermatitis,7
+Intestinal Diseases,7
+Vitamin B Deficiency,7
+Poisoning,7
+Substance-Related Disorders,7
+Gastroenteritis,7
+Bronchial Spasm,7
+Mood Disorders,7
+Alcohol-Related Disorders,7
+Hypercholesterolemia,7
+Movement Disorders,6
+Sexually Transmitted Diseases,6
+Heart Diseases,6
+Demyelinating Diseases,6
+"Sleep Disorders, Intrinsic",6
+Sleep Wake Disorders,6
+Autoimmune Diseases of the Nervous System,6
+Neurotoxicity Syndromes,6
+Multiple Sclerosis,6
+Leukoencephalopathies,6
+"Alcohol-Induced Disorders, Nervous System",6
+Thyroid Diseases,6
+"Diabetes Mellitus, Type 2",6
+Alcohol-Induced Disorders,6
+Alcoholic Neuropathy,6
+Diabetic Neuropathies,6
+Polyneuropathies,6
+Hiccup,6
+Dyssomnias,6
+Gram-Negative Bacterial Infections,6
+"Demyelinating Autoimmune Diseases, CNS",6
+Anemia,6
+Communicable Diseases,6
+Thyroiditis,5
+Heart Failure,5
+"Anemia, Macrocytic",5
+"Anemia, Pernicious",5
+"Anemia, Megaloblastic",5
+Mycobacterium Infections,5
+Vitamin B 12 Deficiency,5
+Gonadal Disorders,5
+Eye Diseases,5
+Endocrine Gland Neoplasms,5
+Actinomycetales Infections,5
+Chronic Disease,5
+Calcium Metabolism Disorders,5
+Headache,5
+Hypertension,5
+Pharyngeal Diseases,5
+Myocardial Ischemia,5
+Myocardial Infarction,4
+Renal Insufficiency,4
+"Skin Diseases, Vascular",4
+Neurocognitive Disorders,4
+Diabetic Nephropathies,4
+Beriberi,4
+Ischemia,4
+Urticaria,4
+Vitamin B 6 Deficiency,4
+"Skin Diseases, Papulosquamous",4
+Wernicke Encephalopathy,4
+"Ventricular Dysfunction, Left",4
+Ventricular Dysfunction,4
+"Pneumonia, Bacterial",4
+Pharyngitis,4
+Sleep Initiation and Maintenance Disorders,4
+Bronchitis,4
+Infarction,4
+Chlamydia Infections,4
+Necrosis,4
+"Sexually Transmitted Diseases, Bacterial",4
+Riboflavin Deficiency,4
+Mycoplasmatales Infections,4
+Rheumatic Fever,4
+Staphylococcal Infections,4
+Otitis,4
+Haemophilus Infections,4
+Psoriasis,4
+Conjunctival Diseases,4
+"Anemia, Hemolytic",4
+Mycoplasma Infections,4
+Pneumonia,4
+Pellagra,4
+"Skin Diseases, Infectious",4
+Hyperthyroidism,4
+Neurodegenerative Diseases,4
+Pasteurellaceae Infections,4
+Dementia,4
+Otitis Media,4
+Peripheral Vascular Diseases,4
+Drug-Related Side Effects and Adverse Reactions,4
+Goiter,4
+Thyrotoxicosis,4
+Anxiety Disorders,4
+Thiamine Deficiency,4
+Chlamydiaceae Infections,4
+Ear Diseases,4
+Depressive Disorder,4
+Parathyroid Diseases,3
+Rickets,3
+Lacrimal Apparatus Diseases,3
+Xerophthalmia,3
+Vision Disorders,3
+"Pneumonia, Mycoplasma",3
+"Thyroiditis, Autoimmune",3
+Hypogonadism,3
+Vitamin A Deficiency,3
+"Renal Insufficiency, Chronic",3
+Head and Neck Neoplasms,3
+Laryngeal Diseases,3
+Hyperlipoproteinemias,3
+Crohn Disease,3
+Thyroid Neoplasms,3
+Tonsillitis,3
+Arterial Occlusive Diseases,3
+Osteoporosis,3
+Bordetella Infections,3
+Coronary Artery Disease,3
+Myxedema,3
+Epilepsy,3
+Bipolar and Related Disorders,3
+Bipolar Disorder,3
+"Metal Metabolism, Inborn Errors",3
+Urethritis,3
+Whooping Cough,3
+Prostatic Diseases,3
+Respiratory Tract Neoplasms,3
+Thoracic Neoplasms,3
+Lung Neoplasms,3
+Mucinoses,3
+"Rickets, Hypophosphatemic",3
+Tuberculosis,3
+"Genital Diseases, Male",3
+Photosensitivity Disorders,3
+Hypothyroidism,3
+Sebaceous Gland Diseases,3
+"Kidney Failure, Chronic",3
+Dry Eye Syndromes,3
+"Renal Tubular Transport, Inborn Errors",3
+"Dyskinesia, Drug-Induced",3
+Vitamin D Deficiency,3
+Skin Neoplasms,3
+Familial Hypophosphatemic Rickets,3
+Vitamin E Deficiency,3
+"Mycobacterium Infections, Nontuberculous",3
+Night Blindness,3
+"Hypophosphatemia, Familial",3
+Laryngitis,3
+Urethral Diseases,3
+Tauopathies,3
+Neisseriaceae Infections,3
+"Bone Diseases, Metabolic",3
+Phosphorus Metabolism Disorders,3
+Alzheimer Disease,3
+Dyskinesias,3
+Hypophosphatemia,3
+Hypoparathyroidism,3
+Sensation Disorders,3
+Colitis,3
+Coronary Disease,3
+Adrenal Gland Diseases,3
+Adrenal Insufficiency,3
+"Skin Diseases, Eczematous",3
+Corneal Diseases,3
+"Tuberculosis, Pulmonary",3
+Neoplasms by Histologic Type,3
+Helicobacter Infections,3
+Enterobacteriaceae Infections,3
+"Colitis, Ulcerative",3
+Skin Manifestations,3
+"Skin Diseases, Bacterial",3
+Arteriosclerosis,3
+Urinary Tract Infections,3
+Colonic Diseases,3
+Soft Tissue Infections,3
+Iris Diseases,2
+Cystitis,2
+"Purpura, Thrombocytopenic",2
+Escherichia coli Infections,2
+Dermatitis Herpetiformis,2
+"Hepatitis, Chronic",2
+Endometrial Hyperplasia,2
+Lymphoproliferative Disorders,2
+Lymphoma,2
+Peptic Ulcer,2
+Acne Vulgaris,2
+Acneiform Eruptions,2
+Endometriosis,2
+Purpura,2
+Nephrosis,2
+"Dermatitis, Contact",2
+"Skin Diseases, Vesiculobullous",2
+"Conjunctivitis, Bacterial",2
+"Skin Diseases, Genetic",2
+Immunologic Deficiency Syndromes,2
+Leukemia,2
+Water-Electrolyte Imbalance,2
+Shock,2
+Duodenal Diseases,2
+Sarcoidosis,2
+"Dermatitis, Atopic",2
+"Purpura, Thrombocytopenic, Idiopathic",2
+Thrombocytopenia,2
+"Genital Neoplasms, Male",2
+Urogenital Neoplasms,2
+Prostatic Neoplasms,2
+Esophageal Diseases,2
+Breast Neoplasms,2
+Breast Diseases,2
+Digestive System Neoplasms,2
+Keratitis,2
+Panic Disorder,2
+Alcoholism,2
+"Epilepsy, Generalized",2
+Schizophrenia Spectrum and Other Psychotic Disorders,2
+"Life Phases, Behavior Mechanisms and Physiologic States",2
+Parasomnias,2
+Restless Legs Syndrome,2
+Schizophrenia,2
+Blood Coagulation Disorders,2
+Uveitis,2
+Lymphatic Diseases,2
+Eye Infections,2
+Immunoproliferative Disorders,2
+Uveal Diseases,2
+Thrombotic Microangiopathies,2
+"Hypersensitivity, Delayed",2
+Blood Platelet Disorders,2
+Duodenal Ulcer,2
+Nephrotic Syndrome,2
+Panuveitis,2
+"Eye Infections, Bacterial",2
+Neuralgia,2
+Gonorrhea,2
+Liver Diseases,2
+Hepadnaviridae Infections,2
+DNA Virus Infections,2
+HIV Infections,2
+Blood-Borne Infections,2
+"Sexually Transmitted Diseases, Viral",2
+Tooth Diseases,2
+Toothache,2
+Hepatitis B,2
+Back Pain,2
+"Hepatitis B, Chronic",2
+Slow Virus Diseases,2
+Iritis,2
+Collagen Diseases,2
+"Hepatitis, Viral, Human",2
+"Lupus Erythematosus, Systemic",2
+Proteus Infections,2
+Stomach Diseases,2
+Conjunctivitis,2
+"Uveitis, Anterior",2
+Urinary Bladder Diseases,2
+Hepatitis,2
+"Epilepsies, Partial",2
+Retroviridae Infections,2
+Lentivirus Infections,2
+"Depressive Disorder, Major",2
+Facial Pain,2
+Hypercalcemia,2
+Acquired Immunodeficiency Syndrome,2
+Klebsiella Infections,2
+Pemphigus,2
+Systemic Inflammatory Response Syndrome,1
+Sepsis,1
+Addison Disease,1
+Nausea,1
+Vertigo,1
+Facial Dermatoses,1
+"Lymphoma, T-Cell",1
+Vomiting,1
+"Puberty, Precocious",1
+Gynecomastia,1
+Mycosis Fungoides,1
+Pancreatic Neoplasms,1
+Foot Dermatoses,1
+Brain Edema,1
+"Otitis Media, Suppurative",1
+Leg Dermatoses,1
+Urogenital Abnormalities,1
+"Adrenal Hyperplasia, Congenital",1
+Hemorrhoids,1
+Heartburn,1
+Prostatitis,1
+Suppuration,1
+Corneal Ulcer,1
+Otitis Externa,1
+Motion Sickness,1
+Gastrointestinal Neoplasms,1
+Pancreatic Diseases,1
+Epididymitis,1
+Status Asthmaticus,1
+Congenital Abnormalities,1
+Disorders of Sex Development,1
+Pruritus Ani,1
+Foot Diseases,1
+Adrenogenital Syndrome,1
+Labyrinth Diseases,1
+"Lymphoma, Non-Hodgkin",1
+"Lymphoma, T-Cell, Cutaneous",1
+"Shock, Septic",1
+Speech Disorders,1
+Communication Disorders,1
+Sexual Development,1
+Stomach Ulcer,1
+Deglutition Disorders,1
+Headache Disorders,1
+Infertility,1
+Paraneoplastic Endocrine Syndromes,1
+Gastroesophageal Reflux,1
+Menopause,1
+Primary Ovarian Insufficiency,1
+Zollinger-Ellison Syndrome,1
+Moraxellaceae Infections,1
+Staphylococcal Skin Infections,1
+Lennox Gastaut Syndrome,1
+"Infertility, Female",1
+Climacteric,1
+Parkinson Disease,1
+Basal Ganglia Diseases,1
+Community-Acquired Infections,1
+Proteostasis Deficiencies,1
+Parkinsonian Disorders,1
+Synucleinopathies,1
+Thyroid Crisis,1
+Maxillary Sinusitis,1
+Esophagitis,1
+Hot Flashes,1
+Reproductive Physiological Phenomena,1
+Amenorrhea,1
+Neurobehavioral Manifestations,1
+Articulation Disorders,1
+Dysarthria,1
+"Epilepsy, Absence",1
+Epileptic Syndromes,1
+Language Disorders,1
+"Epilepsies, Myoclonic",1
+Neurodevelopmental Disorders,1
+Behavior and Behavior Mechanisms,1
+Seizures,1
+Tic Disorders,1
+"Headache Disorders, Primary",1
+Migraine Disorders,1
+Trigeminal Autonomic Cephalalgias,1
+Cluster Headache,1
+Esophageal Motility Disorders,1
+Vestibular Diseases,1
+Paraneoplastic Syndromes,1
+Ovarian Diseases,1
+"Menopause, Premature",1
+Adnexal Diseases,1
+Rectal Diseases,1
+Serum Sickness,1
+Scalp Dermatoses,1
+Listeriosis,1
+Vibrio Infections,1
+Thoracic Injuries,1
+Graft vs Host Disease,1
+Lung Injury,1
+"Bites, Human",1
+Actinomycosis,1
+Lyme Disease,1
+Spirochaetales Infections,1
+"Anemia, Hemolytic, Autoimmune",1
+Pneumoconiosis,1
+Trachoma,1
+Hand Dermatoses,1
+Campylobacter Infections,1
+"Lung Diseases, Interstitial",1
+Pleural Effusion,1
+Vector Borne Diseases,1
+Chlamydophila Infections,1
+Berylliosis,1
+Rocky Mountain Spotted Fever,1
+Yersinia Infections,1
+Phobic Disorders,1
+"Neuralgia, Postherpetic",1
+Erythema Multiforme,1
+Drug Hypersensitivity,1
+Bites and Stings,1
+Granuloma Inguinale,1
+"Arthritis, Psoriatic",1
+"Dermatitis, Seborrheic",1
+Drug Eruptions,1
+Erythema,1
+Plague,1
+Borrelia Infections,1
+Psittacosis,1
+Spotted Fever Group Rickettsiosis,1
+Cholera,1
+Occupational Diseases,1
+Syphilis,1
+Treponemal Infections,1
+Rickettsia Infections,1
+"Conjunctivitis, Allergic",1
+Relapsing Fever,1
+Synovitis,1
+Rickettsiaceae Infections,1
+Tick-Borne Diseases,1
+Anthrax,1
+Pleural Diseases,1
+Bacillaceae Infections,1
+Apnea,1
+Fatigue,1
+Trigeminal Nerve Diseases,1
+Hirsutism,1
+"Rhinitis, Allergic, Seasonal",1
+Edema,1
+Nephritis,1
+Neuroectodermal Tumors,1
+Esophageal and Gastric Varices,1
+Angina Pectoris,1
+"Neoplasms, Germ Cell and Embryonal",1
+Essential Tremor,1
+"Tachycardia, Supraventricular",1
+Cardiac Conduction System Disease,1
+Liver Cirrhosis,1
+Alopecia,1
+Tachycardia,1
+Fibrosis,1
+Ventricular Fibrillation,1
+"Hypertension, Portal",1
+Virilism,1
+"Pathological Conditions, Anatomical",1
+Anus Diseases,1
+Pruritus,1
+"Steroid Metabolism, Inborn Errors",1
+"Neoplasms, Nerve Tissue",1
+Pheochromocytoma,1
+"Epilepsy, Tonic-Clonic",1
+Hypotrichosis,1
+"Stress Disorders, Post-Traumatic",1
+"Epilepsy, Complex Partial",1
+"Stress Disorders, Traumatic",1
+Substance Withdrawal Syndrome,1
+Psychotic Disorders,1
+Facial Neuralgia,1
+Trigeminal Neuralgia,1
+Mouth Diseases,1
+Trauma and Stressor Related Disorders,1
+Cranial Nerve Diseases,1
+Facial Nerve Diseases,1
+Tobacco Use Disorder,1
+Obsessive-Compulsive Disorder,1
+"Tachycardia, Ventricular",1
+Neuroendocrine Tumors,1
+Paraganglioma,1
+Chest Pain,1
+Glomerulonephritis,1
+"Arrhythmias, Cardiac",1
+Prostatic Hyperplasia,1
+Hair Diseases,1
+Salmonella Infections,1
