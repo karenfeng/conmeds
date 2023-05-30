@@ -26,7 +26,10 @@ fluidPage(
               c(
                 "System action" = "ATC1-4",
                 "Contraindicated with" = "DISEASE_ci_with",
-                "Pharmacologic action" = "MESHPA")),
+                "Pharmacologic action" = "MESHPA",
+                "Adverse reactions" = "adverse_reactions",
+                "Boxed warnings" = "boxed_warnings")),
+            textInput("cohort_search", label = "Search", value = "")
           ),
           mainPanel(
             tableOutput("cohort_hierarchy")
@@ -37,8 +40,8 @@ fluidPage(
         "Patient",
         sidebarLayout(
           sidebarPanel(
-            textInput("participant_id", label = "Participant ID", value = "1"),
-            textInput("reaction", label = "Reaction", value = "")
+            textInput("pt_id", label = "Participant ID", value = "1"),
+            textInput("pt_search", label = "Search", value = "")
           ),
           mainPanel(
             tableOutput("pt_boxed_warnings"),

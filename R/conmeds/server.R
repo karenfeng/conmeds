@@ -20,16 +20,16 @@ on_sides <- read.csv('conmed_example_data_with_onsides.csv')
 
 filter_pt_reaction_df <- function(pt_df, reaction_col_name, input) {
   pt_reaction_df <- pt_df %>%
-    filter(ID == input$participant_id) %>%
+    filter(ID == input$pt_id) %>%
     select(as.symbol(reaction_col_name)) %>%
     separate_rows(as.symbol(reaction_col_name), sep=';') %>%
     filter(as.symbol(reaction_col_name) != "") %>%
     unique()
   
-  if (input$reaction != '') {
-    pt_relevant_reaction <- sapply(pt_reaction_df[,reaction_col_name], function(x) {
-      str_detect(x, regex(input$reaction, ignore_case=T))})
-    pt_reaction_df <- pt_reaction_df[pt_relevant_reaction,]
+  if (input$pt_search != '') {
+    pt_relevant <- sapply(pt_reaction_df[,reaction_col_name], function(x) {
+      str_detect(x, regex(input$pt_search, ignore_case=T))})
+    pt_reaction_df <- pt_reaction_df[pt_relevant,]
   }
   pt_reaction_df
 }
@@ -57,8 +57,13 @@ function(input, output, session) {
   output$cohort_hierarchy <- renderTable({
     hierarchy_file <- paste(
       'conmed_example_data_by_patient_', input$hierarchy, '.csv', sep='')
-    df <- read.csv( hierarchy_file, header=F)
+    df <- read.csv(hierarchy_file, header=F)
     names(df) <- c("Classification", "Frequency")
+    if (input$cohort_search != '') {
+      cohort_relevant <- sapply(df[,"Classification"], function(x) {
+        str_detect(x, regex(input$cohort_search, ignore_case=T))})
+      df <- df[cohort_relevant,]
+    }
     df
   })
 }
