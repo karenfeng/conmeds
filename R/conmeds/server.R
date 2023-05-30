@@ -13,10 +13,10 @@ library(here)
 
 set_here()
 pwd <- getwd()
-setwd("../../data")
+setwd("../../output")
 
-hierarchy <- read.csv('conmed_example_data_with_hierarchy.csv')
-on_sides <- read.csv('conmed_example_data_with_onsides.csv')
+hierarchy <- read.csv('rxnorm_hierarchy.csv')
+on_sides <- read.csv('rxnorm_onsides.csv')
 
 filter_pt_reaction_df <- function(pt_df, reaction_col_name, input) {
   pt_reaction_df <- pt_df %>%
@@ -56,7 +56,7 @@ function(input, output, session) {
   
   output$cohort_hierarchy <- renderTable({
     hierarchy_file <- paste(
-      'conmed_example_data_by_patient_', input$hierarchy, '.csv', sep='')
+      'rxnorm_cohort_', input$hierarchy, '.csv', sep='')
     df <- read.csv(hierarchy_file, header=F)
     names(df) <- c("Classification", "Frequency")
     if (input$cohort_search != '') {
