@@ -7,6 +7,13 @@
 #    http://shiny.rstudio.com/
 #
 
+if (!require("tidyverse")) {
+  install.packages("tidyverse", repos='http://cran.us.r-project.org')
+}
+if (!require("here")) {
+  install.packages("here", repos='http://cran.us.r-project.org')
+}
+
 library(shiny)
 library(tidyverse)
 library(here)
@@ -18,6 +25,7 @@ setwd("../../output")
 rxnorm <- read.csv('rxnorm_cuid.csv')
 hierarchy <- read.csv('rxnorm_hierarchy.csv')
 on_sides <- read.csv('rxnorm_onsides.csv')
+patient_ranking <- read.csv('rxnorm_rank.csv')
 
 filter_pt_reaction_df <- function(pt_df, reaction_col_name, input) {
   if (!is.null(input$pt_id)) {
