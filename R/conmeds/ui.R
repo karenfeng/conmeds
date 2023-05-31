@@ -17,7 +17,10 @@ fluidPage(
     tabsetPanel(
       type="tabs",
       tabPanel(
-        "Cohort",
+        "Summary statistics",
+        plotOutput("num_conmeds")),
+      tabPanel(
+        "Classification summary",
         sidebarLayout(
           sidebarPanel(
             selectInput(
@@ -27,6 +30,8 @@ fluidPage(
                 "System action" = "ATC1-4",
                 "Contraindicated with" = "DISEASE_ci_with",
                 "Pharmacologic action" = "MESHPA",
+                "Mechanism of action" = "MOA_has_moa",
+                "Established pharmaceutical class" = "EPC_has_epc",
                 "Adverse reactions" = "adverse_reactions",
                 "Boxed warnings" = "boxed_warnings")),
             textInput("cohort_search", label = "Search", value = "")
@@ -37,10 +42,10 @@ fluidPage(
         )
       ),
       tabPanel(
-        "Patient",
+        "Patient lookup",
         sidebarLayout(
           sidebarPanel(
-            textInput("pt_id", label = "Participant ID", value = "1"),
+            uiOutput("pt_select"),
             textInput("pt_search", label = "Search", value = "")
           ),
           mainPanel(
