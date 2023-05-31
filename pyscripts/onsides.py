@@ -1,5 +1,3 @@
-import numpy as np
-import pandas as pd
 import requests
 import json
 import numpy as np
@@ -16,11 +14,9 @@ def get_mean_grade(row):
 CTCAE['Mean Grade'] = CTCAE.apply(get_mean_grade, axis=1)
 
 onsides_df = pd.read_csv('../data/conmed_example_data_with_onsides_ids.csv', index_col=0).fillna(np.nan).replace([np.nan], [None])
-
-counts = pd.DataFrame(index=onsides_df['ID'].unique())
 MPS_dict = {}
+counts = pd.DataFrame(index=onsides_df['ID'].unique())
 for colname in ['adverse_reactions', 'boxed_warnings']:
-    print(colname)
     onsides_df[colname] = onsides_df[colname].apply(lambda x: x.split(';') if x else [''])
     indiv = onsides_df.groupby('ID').agg({colname: sum})
     indiv[colname] = indiv[colname].apply(set)
@@ -53,7 +49,3 @@ counts['Weight'] = counts['adverse_reactions'] * 0.02 + counts['boxed_warnings']
 counts = counts.rename_axis("ID")
 output_list = counts['Weight'].sort_values(ascending=False)
 output_list.to_csv("../data/onsides_patient_ranking.csv")
-
-
-
-

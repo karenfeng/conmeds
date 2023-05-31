@@ -13,25 +13,35 @@ library(here)
 
 set_here()
 pwd <- getwd()
-setwd("../../data")
+setwd("../../output")
 
-hierarchy <- read.csv('conmed_example_data_with_hierarchy.csv')
-on_sides <- read.csv('conmed_example_data_with_onsides.csv')
+rxnorm <- read.csv('rxnorm_cuid.csv')
+hierarchy <- read.csv('rxnorm_hierarchy.csv')
+on_sides <- read.csv('rxnorm_onsides.csv')
 
 filter_pt_reaction_df <- function(pt_df, reaction_col_name, input) {
-  pt_reaction_df <- pt_df %>%
-    filter(ID == input$pt_id) %>%
-    select(as.symbol(reaction_col_name)) %>%
-    separate_rows(as.symbol(reaction_col_name), sep=';') %>%
-    filter(as.symbol(reaction_col_name) != "") %>%
-    unique()
-  
-  if (input$pt_search != '') {
-    pt_relevant <- sapply(pt_reaction_df[,reaction_col_name], function(x) {
-      str_detect(x, regex(input$pt_search, ignore_case=T))})
-    pt_reaction_df <- pt_reaction_df[pt_relevant,]
+  if (!is.null(input$pt_id)) {
+    pt_df <- pt_df %>%
+      filter(as.character(ID) == as.character(input$pt_id))
   }
-  pt_reaction_df
+
+  pt_df <- pt_df %>%
+    select(as.symbol(reaction_col_name)) %>%
+    separate_longer_delim(as.symbol(reaction_col_name), delim=';') %>%
+    mutate_all(list(~na_if(.,""))) %>%
+    drop_na() %>%
+    unique()
+
+  if (input$pt_search != "") {
+    pt_reaction <- pt_df[,1]
+    pt_relevant <- str_detect(
+      pt_reaction, regex(input$pt_search, ignore_case=T)) %>%
+      which()
+    pt_df <- pt_df %>%
+      slice(pt_relevant)
+  }
+
+  pt_df
 }
 
 function(input, output, session) {
@@ -56,7 +66,7 @@ function(input, output, session) {
   
   output$cohort_hierarchy <- renderTable({
     hierarchy_file <- paste(
-      'conmed_example_data_by_patient_', input$hierarchy, '.csv', sep='')
+      'rxnorm_cohort_', input$hierarchy, '.csv', sep='')
     df <- read.csv(hierarchy_file, header=F)
     names(df) <- c("Classification", "Frequency")
     if (input$cohort_search != '') {
@@ -65,5 +75,26 @@ function(input, output, session) {
       df <- df[cohort_relevant,]
     }
     df
+  })
+  
+  output$pt_select <- renderUI({
+    ranking_df <- read.csv('../data/onsides_patient_ranking.csv', header=T)
+    selectInput(
+      "pt_id",
+      "Patient ID",
+      ranking_df$ID,
+      selectize=F)
+  })
+  
+  output$num_conmeds <- renderPlot({
+    num_conmeds <- rxnorm %>%
+      group_by(ID) %>%
+      summarize(num_conmeds=n()) %>%
+      group_by(num_conmeds) %>%
+      summarize(num_patients=n())
+    ggplot(num_conmeds, aes(x=factor(num_conmeds), y=num_patients, fill=num_conmeds)) +
+      geom_bar(stat="identity", show.legend = FALSE) +
+      labs(x="Number of concomitant medications", y="Number of patients") +
+      theme_minimal()
   })
 }
