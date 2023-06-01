@@ -60,7 +60,6 @@ function(input, output, session) {
       pt_df <- pt_df %>%
         filter(as.character(ID) == as.character(input$pt_id))
     }
-    print(pt_df)
     pt_df %>%
       select("Verbatim.Term", "Requires.Review") %>%
       mutate(Medication = paste(Verbatim.Term, if_else(Requires.Review == "True", "*", ""))) %>%
@@ -86,9 +85,17 @@ function(input, output, session) {
   })
   
   output$cohort_hierarchy <- renderTable({
-    hierarchy_file <- paste(
-      'rxnorm_cohort_', input$hierarchy, '.csv', sep='')
-    df <- read.csv(hierarchy_file, header=F)
+    if (input$hierarchy == 'name') {
+      df <- rxnorm %>%
+        group_by(`Best.RxNorm.Id`) %>%
+        summarize(Medication=first(`Verbatim.Term`), Frequency=n()) %>%
+        arrange(desc(Frequency)) %>%
+        select(Medication, Frequency)
+    } else {
+      hierarchy_file <- paste(
+        'rxnorm_cohort_', input$hierarchy, '.csv', sep='')
+      df <- read.csv(hierarchy_file, header=F)
+    }
     names(df) <- c("Classification", "Frequency")
     if (input$cohort_search != '') {
       cohort_relevant <- sapply(df[,"Classification"], function(x) {

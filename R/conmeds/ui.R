@@ -27,11 +27,13 @@ fluidPage(
               "hierarchy",
               "Classification",
               c(
+                "Name" = "name",
                 "System action" = "ATC1-4",
                 "Contraindicated with" = "DISEASE_ci_with",
                 "Pharmacologic action" = "MESHPA",
                 "Mechanism of action" = "MOA_has_moa",
                 "Established pharmaceutical class" = "EPC_has_epc",
+                "Therapeutic role" = "THERAP_isa_therapeutic",
                 "Adverse reactions" = "adverse_reactions",
                 "Boxed warnings" = "boxed_warnings")),
             textInput("cohort_search", label = "Search", value = "")
