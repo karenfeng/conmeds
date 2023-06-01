@@ -49,6 +49,7 @@ fluidPage(
             textInput("pt_search", label = "Search", value = "")
           ),
           mainPanel(
+            tableOutput("pt_drugs"),
             tableOutput("pt_boxed_warnings"),
             tableOutput("pt_adverse_reactions"),
             tableOutput("pt_induced_disease")

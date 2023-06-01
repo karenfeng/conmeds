@@ -54,6 +54,19 @@ filter_pt_reaction_df <- function(pt_df, reaction_col_name, input) {
 
 function(input, output, session) {
   
+  output$pt_drugs <- renderTable({
+    pt_df <- rxnorm
+    if (!is.null(input$pt_id)) {
+      pt_df <- pt_df %>%
+        filter(as.character(ID) == as.character(input$pt_id))
+    }
+    print(pt_df)
+    pt_df %>%
+      select("Verbatim.Term", "Requires.Review") %>%
+      mutate(Medication = paste(Verbatim.Term, if_else(Requires.Review == "True", "*", ""))) %>%
+      select(Medication)
+  })
+  
   output$pt_boxed_warnings <- renderTable({
     df <- filter_pt_reaction_df(on_sides, "boxed_warnings", input)
     names(df) <- c("Boxed warnings")
@@ -86,11 +99,10 @@ function(input, output, session) {
   })
   
   output$pt_select <- renderUI({
-    ranking_df <- read.csv('../data/onsides_patient_ranking.csv', header=T)
     selectInput(
       "pt_id",
       "Patient ID",
-      ranking_df$ID,
+      patient_ranking$ID,
       selectize=F)
   })
   
