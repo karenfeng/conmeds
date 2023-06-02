@@ -51,7 +51,6 @@ filter_pt_reaction_df <- function(pt_df, se_col_name, input) {
 
   se_ranking <- side_effect_ranking
   colnames(se_ranking) <- c(se_col_name, 'Mean severity')
-  print(se_ranking)
 
   pt_df %>%
     select(as.symbol(se_col_name)) %>%
