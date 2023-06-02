@@ -38,11 +38,19 @@ python python/process_annotations.py \
   --input output/rxnorm_cuid.csv \
   --output output/rxnorm_cohort
 
+# Rank adverse effects and boxed warnings by mean CTCAE severity
+
+python python/rank_side_effects.py \
+  --ctcae resources/CTCAE_v5.0_2017-11-27.xlsx \
+  --onsides resources/onsides_20230309 \
+  --input output/rxnorm_onsides_id.csv \
+  --output output/side_effects_rank.csv
+
 # Rank patients according to their OnSides warnings, weighted by mean CTCAE severity
 
 python python/rank_patients_onsides.py \
-  --ctcae resources/CTCAE_v5.0_2017-11-27.xlsx \
-  --input output/rxnorm_onsides_id.csv \
+  --rank output/side_effects_rank.csv \
+  --input output/rxnorm_onsides.csv \
   --output output/rxnorm_rank.csv
 
 # Run Shiny app

@@ -33,6 +33,7 @@ rxnorm <- read.csv('rxnorm_cuid.csv')
 hierarchy <- read.csv('rxnorm_hierarchy.csv')
 on_sides <- read.csv('rxnorm_onsides.csv')
 patient_ranking <- read.csv('rxnorm_rank.csv')
+side_effect_ranking <- read.csv('side_effects_rank.csv')
 
 get_pt_id <- function(input) {
   if (!is.null(input$pt_list_rows_selected)) {
@@ -42,18 +43,24 @@ get_pt_id <- function(input) {
   }
 }
 
-filter_pt_reaction_df <- function(pt_df, reaction_col_name, input) {
+filter_pt_reaction_df <- function(pt_df, se_col_name, input) {
   if (!is.null(get_pt_id(input))) {
     pt_df <- pt_df %>%
       filter(as.character(ID) == get_pt_id(input))
   }
 
+  se_ranking <- side_effect_ranking
+  colnames(se_ranking) <- c(se_col_name, 'Mean severity')
+  print(se_ranking)
+
   pt_df %>%
-    select(as.symbol(reaction_col_name)) %>%
-    separate_longer_delim(as.symbol(reaction_col_name), delim=';') %>%
+    select(as.symbol(se_col_name)) %>%
+    separate_longer_delim(as.symbol(se_col_name), delim=';') %>%
     mutate_all(list(~na_if(.,""))) %>%
     drop_na() %>%
-    unique()
+    unique() %>%
+    inner_join(se_ranking) %>%
+    arrange(desc(`Mean severity`))
 }
 
 function(input, output, session) {
@@ -82,7 +89,7 @@ function(input, output, session) {
   
   output$pt_boxed_warnings <- renderDataTable({
     df <- filter_pt_reaction_df(on_sides, "boxed_warnings", input)
-    names(df) <- c("Boxed warnings")
+    names(df)[1] <- c("Boxed warnings")
     df %>%
       datatable(
         options = list(pageLength = 5),
@@ -92,7 +99,7 @@ function(input, output, session) {
 
   output$pt_adverse_reactions <- renderDataTable({
     df <- filter_pt_reaction_df(on_sides, "adverse_reactions", input)
-    names(df) <- c("Adverse reactions")
+    names(df)[1] <- c("Adverse reactions")
     df %>%
       datatable(
         options = list(pageLength = 5),
@@ -156,6 +163,7 @@ function(input, output, session) {
       rename(
         "Patient ID" = "ID",
         "Risk" = "Weight") %>%
+      mutate(Risk = as.integer(Risk)) %>%
       datatable(
         options = list(pageLength = 15),
         rownames = FALSE,
