@@ -7,7 +7,15 @@
 #    http://shiny.rstudio.com/
 #
 
+if (!require("shiny")) {
+  install.packages("shiny", repos='http://cran.us.r-project.org')
+}
+if (!require("DT")) {
+  install.packages("DT", repos='http://cran.us.r-project.org')
+}
+
 library(shiny)
+library(DT)
 
 # Define UI for application that draws a histogram
 fluidPage(
@@ -18,28 +26,29 @@ fluidPage(
       type="tabs",
       tabPanel(
         "Summary statistics",
-        plotOutput("num_conmeds")),
+        plotOutput("num_conmeds"),
+        dataTableOutput("common_drugs")),
       tabPanel(
         "Classification summary",
         sidebarLayout(
           sidebarPanel(
-            selectInput(
+            radioButtons(
               "hierarchy",
               "Classification",
               c(
-                "Name" = "name",
-                "System action" = "ATC1-4",
                 "Contraindicated with" = "DISEASE_ci_with",
                 "Pharmacologic action" = "MESHPA",
-                "Mechanism of action" = "MOA_has_moa",
-                "Established pharmaceutical class" = "EPC_has_epc",
                 "Therapeutic role" = "THERAP_isa_therapeutic",
                 "Adverse reactions" = "adverse_reactions",
                 "Boxed warnings" = "boxed_warnings")),
-            textInput("cohort_search", label = "Search", value = "")
+            width=3
           ),
           mainPanel(
-            tableOutput("cohort_hierarchy")
+            br(),
+            uiOutput("hierarchy_blurb"),
+            br(),
+            dataTableOutput("cohort_hierarchy"),
+            width=9
           )
         )
       ),
@@ -47,14 +56,23 @@ fluidPage(
         "Patient lookup",
         sidebarLayout(
           sidebarPanel(
-            uiOutput("pt_select"),
-            textInput("pt_search", label = "Search", value = "")
-          ),
+            dataTableOutput("pt_list"),
+            width=4),
           mainPanel(
-            tableOutput("pt_drugs"),
-            tableOutput("pt_boxed_warnings"),
-            tableOutput("pt_adverse_reactions"),
-            tableOutput("pt_induced_disease")
+            br(),
+            p("Concomitant medications taken by the patient."),
+            dataTableOutput("pt_drugs"),
+            br(),
+            p(paste0(
+              "Boxed warnings from FDA structured product labels extracted ",
+              "via OnSides. Ranked by average CTCAE severity.")),
+            dataTableOutput("pt_boxed_warnings"),
+            br(),
+            p(paste0(
+              "Adverse reactions from FDA structured product labels extracted ",
+              "via OnSides. Ranked by average CTCAE severity.")),
+            dataTableOutput("pt_adverse_reactions"),
+            width=8
           )
         )
       )
