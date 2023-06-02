@@ -39,7 +39,7 @@ fluidPage(
                 "Contraindicated with" = "DISEASE_ci_with",
                 "Pharmacologic action" = "MESHPA",
                 "Pharmacokinetics" = "PK_has_pk",
-                "Therapeutic role" = "THERAP_isa_therapeutic",
+                "Therapeutic role" = "DISEASE_may_treat",
                 "Adverse reactions" = "adverse_reactions",
                 "Boxed warnings" = "boxed_warnings")),
             width=3

@@ -134,7 +134,7 @@ function(input, output, session) {
     case_match(
       input$hierarchy,
       "DISEASE_ci_with" ~ HTML(paste0(
-        'Drugs that are contraindicated with a disease, as found in ',
+        'Contraindications with a disease, as found in ',
         '<a href = "https://evs.nci.nih.gov/ftp1/MED-RT/MED-RT%20Documentation.pdf">',
         'MED-RT</a>.')),
       "MESHPA" ~ HTML(paste0(
@@ -147,11 +147,10 @@ function(input, output, session) {
         'elimination of active ingredients, as found in ',
         '<a href = "https://evs.nci.nih.gov/ftp1/MED-RT/MED-RT%20Documentation.pdf">',
         'MED-RT</a>.')),
-      "THERAP_isa_therapeutic" ~ HTML(paste0(
-        'Drug classification from ',
-        '<a href = "https://www.nlm.nih.gov/healthit/snomedct/index.html">',
-        'SNOMED CT</a> based on the therapeutic role of medicinal products ',
-        'and medicinal product forms.')),
+      "DISEASE_may_treat" ~ HTML(paste0(
+        'Therapeutic roles of drugs, as found in ',
+        '<a href = "https://evs.nci.nih.gov/ftp1/MED-RT/MED-RT%20Documentation.pdf">',
+        'MED-RT</a>.')),
       "adverse_reactions" ~ HTML(paste0(
         'Adverse reactions from FDA structured product labels extracted via ',
         '<a href = "https://github.com/tatonetti-lab/onsides">OnSIDES</a>.')),
