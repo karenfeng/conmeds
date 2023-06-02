@@ -142,6 +142,11 @@ function(input, output, session) {
         'Medical Subject Headings (MeSH) pharmacological actions</a>. ',
         'These actions include the alteration of normal body functions ',
         'and the effects of chemicals on the environment.')),
+      "PK_has_pk" ~ HTML(paste0(
+        'Pharmacokinetics describing the absorption, distribution, and ',
+        'elimination of active ingredients, as found in ',
+        '<a href = "https://evs.nci.nih.gov/ftp1/MED-RT/MED-RT%20Documentation.pdf">',
+        'MED-RT</a>.')),
       "THERAP_isa_therapeutic" ~ HTML(paste0(
         'Drug classification from ',
         '<a href = "https://www.nlm.nih.gov/healthit/snomedct/index.html">',
@@ -193,6 +198,6 @@ function(input, output, session) {
       geom_bar(stat="identity", show.legend = FALSE) +
       labs(x="Number of concomitant medications", y="Number of patients") +
       theme_minimal() +
-      theme(text = element_text(size = 14))
+      theme(text = element_text(size = 16))
   })
 }
