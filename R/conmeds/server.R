@@ -62,6 +62,18 @@ filter_pt_reaction_df <- function(pt_df, se_col_name, input) {
     arrange(desc(`Mean severity`))
 }
 
+calculate_percentile <- function(id, risk) {
+  ordered_risk <- data.frame(risk = unique(risk)) %>%
+    arrange(risk) %>%
+    mutate(
+      order = row_number()-1,
+      percentile_risk = as.integer(order/n()*100)) %>%
+    select(risk, percentile_risk)
+  data.frame(id, risk) %>%
+    inner_join(ordered_risk) %>%
+    select(id, percentile_risk)
+}
+
 function(input, output, session) {
   
   output$pt_drugs <- renderDataTable({
@@ -158,11 +170,13 @@ function(input, output, session) {
   })
   
   output$pt_list <- renderDataTable({
-    patient_ranking %>%
+    patient_risk <- calculate_percentile(
+      patient_ranking$ID,
+      patient_ranking$Weight)
+    patient_risk %>%
       rename(
-        "Patient ID" = "ID",
-        "Risk" = "Weight") %>%
-      mutate(Risk = as.integer(Risk)) %>%
+        "Patient ID" = "id",
+        "Risk Percentile" = "percentile_risk") %>%
       datatable(
         options = list(pageLength = 15),
         rownames = FALSE,
