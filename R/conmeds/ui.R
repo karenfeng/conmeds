@@ -56,8 +56,8 @@ fluidPage(
         "Patient lookup",
         sidebarLayout(
           sidebarPanel(
-            uiOutput("pt_select"),
-            width=2),
+            dataTableOutput("pt_list"),
+            width=4),
           mainPanel(
             br(),
             p("Concomitant medications taken by the patient."),
@@ -70,8 +70,9 @@ fluidPage(
             br(),
             p(paste0(
               "Adverse reactions from FDA structured product labels extracted ",
-              "via OnSides. Ranked by average CTCAE severity.")),            dataTableOutput("pt_adverse_reactions"),
-            width=10
+              "via OnSides. Ranked by average CTCAE severity.")),
+            dataTableOutput("pt_adverse_reactions"),
+            width=8
           )
         )
       )

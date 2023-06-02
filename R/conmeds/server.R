@@ -34,10 +34,18 @@ hierarchy <- read.csv('rxnorm_hierarchy.csv')
 on_sides <- read.csv('rxnorm_onsides.csv')
 patient_ranking <- read.csv('rxnorm_rank.csv')
 
+get_pt_id <- function(input) {
+  if (!is.null(input$pt_list_rows_selected)) {
+    patient_ranking[input$pt_list_rows_selected,]$ID
+  } else {
+    NULL
+  }
+}
+
 filter_pt_reaction_df <- function(pt_df, reaction_col_name, input) {
-  if (!is.null(input$pt_id)) {
+  if (!is.null(get_pt_id(input))) {
     pt_df <- pt_df %>%
-      filter(as.character(ID) == as.character(input$pt_id))
+      filter(as.character(ID) == get_pt_id(input))
   }
 
   pt_df %>%
@@ -52,9 +60,9 @@ function(input, output, session) {
   
   output$pt_drugs <- renderDataTable({
     pt_df <- rxnorm
-    if (!is.null(input$pt_id)) {
+    if (!is.null(get_pt_id(input))) {
       pt_df <- pt_df %>%
-        filter(as.character(ID) == as.character(input$pt_id))
+        filter(as.character(ID) == get_pt_id(input))
     }
     pt_df %>%
       select("Verbatim.Term", "Requires.Review") %>%
@@ -65,21 +73,31 @@ function(input, output, session) {
           as.character(icon("ok", lib = "glyphicon")),
           as.character(icon("remove", lib = "glyphicon")))) %>%
       select(Medication, Confident) %>%
-      datatable(options = list(pageLength = 5), escape = FALSE)
+      datatable(
+        options = list(pageLength = 5),
+        escape = FALSE,
+        rownames = FALSE,
+        selection = 'none')
   })
   
   output$pt_boxed_warnings <- renderDataTable({
     df <- filter_pt_reaction_df(on_sides, "boxed_warnings", input)
     names(df) <- c("Boxed warnings")
     df %>%
-      datatable(options = list(pageLength = 5))
+      datatable(
+        options = list(pageLength = 5),
+        rownames = FALSE,
+        selection = 'none')
   })
 
   output$pt_adverse_reactions <- renderDataTable({
     df <- filter_pt_reaction_df(on_sides, "adverse_reactions", input)
     names(df) <- c("Adverse reactions")
     df %>%
-      datatable(options = list(pageLength = 5))
+      datatable(
+        options = list(pageLength = 5),
+        rownames = FALSE,
+        selection = 'none')
   })
   
   output$common_drugs <- renderDataTable({
@@ -88,7 +106,10 @@ function(input, output, session) {
       summarize(Medication=first(`Verbatim.Term`), Frequency=n()) %>%
       arrange(desc(Frequency)) %>%
       select(Medication, Frequency) %>%
-      datatable(options = list(pageLength = 5))
+      datatable(
+        options = list(pageLength = 5),
+        rownames = FALSE,
+        selection = 'none')
   })
   
   output$hierarchy_blurb <- renderUI({
@@ -124,14 +145,21 @@ function(input, output, session) {
     df <- read.csv(hierarchy_file, header=F)
     names(df) <- c("Classification", "Frequency")
     df %>%
-      datatable(options = list(pageLength = 10))
+      datatable(
+        options = list(pageLength = 10),
+        rownames = FALSE,
+        selection = 'none')
   })
   
-  output$pt_select <- renderUI({
-    radioButtons(
-      "pt_id",
-      "Patient ID (by decreasing risk)",
-      patient_ranking$ID)
+  output$pt_list <- renderDataTable({
+    patient_ranking %>%
+      rename(
+        "Patient ID" = "ID",
+        "Risk" = "Weight") %>%
+      datatable(
+        options = list(pageLength = 15),
+        rownames = FALSE,
+        selection = 'single')
   })
   
   output$num_conmeds <- renderPlot({
