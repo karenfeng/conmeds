@@ -34,7 +34,9 @@ for colname in ['adverse_reactions', 'boxed_warnings']:
         if i % 20 == 0:
             print("Processed {} IDs".format(i))
         i += 1
-        if not num in MPS_dict:
+        if not num in MPS_dict and num in set(CTCAE['MedDRA Code']):
+            MPS_dict[num] = num
+        elif not num in MPS_dict:
             url = "https://api-evsrest.nci.nih.gov/api/v1/concept/mdr/" + str(num)
             response = requests.get(url, timeout=1)
             data = response.json()
