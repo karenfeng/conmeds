@@ -1,6 +1,16 @@
-# conmeds
+# Conmeds: Medication informatics for clinical trials
 
-## Data
+## How do I apply this to my own dataset?
+
+Run the following script:
+
+```
+./pipeline.sh <INPUT_DATA>
+```
+
+An example dataset is available at `conmed_example_data.csv`.
+
+## Where do I find the missing resources?
 
 Some datasets were not uploaded due to their size.
 

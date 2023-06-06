@@ -1,7 +1,9 @@
+INPUT_DATA=$1
+
 # Convert drug names to RxNorm IDs
 
 python python/get_rxnorm_cuid.py \
-  --input scratch/data/conmed_example_data.csv \
+  --input $INPUT_DATA \
   --output output/rxnorm_cuid.csv
   
 # Get all RxClass hierarchies on a per-drug level
