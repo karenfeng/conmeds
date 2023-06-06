@@ -1,3 +1,5 @@
+# Author: Holly McCann
+
 import pandas as pd
 
 onsides = pd.read_csv("../data/onsides_patient_ranking.csv")

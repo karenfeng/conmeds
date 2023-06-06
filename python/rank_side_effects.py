@@ -1,3 +1,5 @@
+# Author: Holly McCann
+
 import argparse
 import requests
 import json

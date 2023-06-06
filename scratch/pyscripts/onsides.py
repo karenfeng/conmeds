@@ -1,3 +1,5 @@
+# Author: Holly McCann
+
 import requests
 import json
 import numpy as np

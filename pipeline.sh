@@ -1,3 +1,5 @@
+# Author: Karen Feng
+
 INPUT_DATA=$1
 
 # Convert drug names to RxNorm IDs

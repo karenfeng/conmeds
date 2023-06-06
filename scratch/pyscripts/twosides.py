@@ -1,3 +1,5 @@
+# Author: Holly McCann
+
 from itertools import permutations
 import numpy as np
 import pandas as pd
