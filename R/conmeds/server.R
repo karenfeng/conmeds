@@ -84,6 +84,7 @@ function(input, output, session) {
           as.character(icon("ok", lib = "glyphicon")),
           as.character(icon("remove", lib = "glyphicon")))) %>%
       select(Medication, Confident) %>%
+      arrange(Medication) %>%
       datatable(
         options = list(pageLength = 5),
         escape = FALSE,
